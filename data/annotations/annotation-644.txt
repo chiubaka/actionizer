@@ -1,0 +1,9 @@
+
+365	6	ne	DATE
+380	7	ne	CARDINAL
+436	7	ne	DATE
+473	7	ne	DATE
+483	6	ne	ORGANIZATION
+350	38	sentence
+390	91	sentence
+483	6	sentence

@@ -1,0 +1,10 @@
+
+224	8	ne	DATE
+293	5	ne	CARDINAL
+317	3	ne	CARDINAL
+349	5	ne	CARDINAL
+550	13	ne	PERSON
+201	45	sentence
+247	249	sentence
+498	43	sentence
+543	20	sentence

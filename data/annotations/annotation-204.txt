@@ -1,0 +1,7 @@
+
+341	6	ne	TIME
+351	12	ne	DATE
+287	29	sentence
+317	47	sentence
+365	92	sentence
+460	12	sentence

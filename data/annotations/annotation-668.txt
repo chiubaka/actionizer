@@ -1,0 +1,9 @@
+
+234	11	ne	PERSON
+284	8	ne	ORGANIZATION
+296	11	ne	ORGANIZATION
+580	102	ne	PERSON
+234	143	sentence
+379	79	sentence
+460	117	sentence
+580	102	sentence

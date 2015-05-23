@@ -1,0 +1,11 @@
+
+314	3	ne	ORGANIZATION
+318	5	ne	PER_DESC
+326	2	ne	PERSON
+338	4	ne	DATE
+360	6	ne	PERSON
+495	4	ne	ORGANIZATION
+314	45	sentence
+360	42	sentence
+403	81	sentence
+486	13	sentence

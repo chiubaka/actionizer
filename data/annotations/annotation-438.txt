@@ -1,0 +1,8 @@
+
+209	6	ne	PERSON
+304	4	ne	ORGANIZATION
+342	12	ne	ANIMAL
+370	5	ne	PERSON
+209	147	sentence
+357	7	sentence
+365	10	sentence

@@ -1,0 +1,17 @@
+
+305	23	ne	ORGANIZATION
+332	8	ne	GPE
+378	10	ne	MONEY
+506	12	ne	TIME
+615	10	ne	ORG_DESC
+699	10	ne	ORG_DESC
+777	9	ne	PER_DESC
+848	12	ne	PERSON
+224	137	sentence
+364	57	sentence
+424	119	sentence
+550	76	sentence
+629	109	sentence
+741	46	sentence
+789	45	sentence
+836	24	sentence

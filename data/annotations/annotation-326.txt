@@ -1,0 +1,22 @@
+
+255	7	ne	PERSON
+281	7	ne	DATE
+327	22	ne	DATE
+411	9	ne	PER_DESC
+433	6	ne	PER_DESC
+455	3	ne	CARDINAL
+459	7	ne	FAC_DESC
+551	7	ne	DATE
+618	6	ne	PER_DESC
+721	6	ne	ORG_DESC
+742	6	ne	FAC_DESC
+772	8	ne	FAC_DESC
+785	4	ne	SUBSTANCE
+792	3	ne	PERSON
+255	95	sentence
+352	88	sentence
+442	117	sentence
+561	75	sentence
+638	58	sentence
+697	93	sentence
+792	3	sentence

@@ -1,0 +1,10 @@
+
+426	3	ne	PERSON
+434	4	ne	ORGANIZATION
+441	3	ne	FAC_DESC
+459	3	ne	PERSON
+524	1	ne	CARDINAL
+528	5	ne	PERSON
+388	57	sentence
+447	33	sentence
+482	51	sentence

@@ -1,0 +1,10 @@
+
+322	17	ne	GPE
+347	5	ne	ORGANIZATION
+379	14	ne	TIME
+453	4	ne	PERSON
+206	81	sentence
+289	80	sentence
+371	61	sentence
+434	17	sentence
+453	4	sentence

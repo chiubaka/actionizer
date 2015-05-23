@@ -1,0 +1,38 @@
+
+209	9	ne	PERSON
+275	6	ne	PRODUCT_DESC
+372	5	ne	ORGANIZATION
+407	3	ne	CARDINAL
+575	9	ne	DATE
+616	9	ne	DATE
+635	5	ne	DATE
+732	6	ne	ORDINAL
+752	5	ne	ORG_DESC
+885	13	ne	DATE
+969	6	ne	PRODUCT_DESC
+1240	5	ne	PER_DESC
+1255	5	ne	PER_DESC
+1361	5	ne	PRODUCT_DESC
+1519	12	ne	TIME
+1533	8	ne	DATE
+1546	8	ne	DATE
+1578	2	ne	ORGANIZATION
+1662	7	ne	ORGANIZATION
+1677	8	ne	GPE
+2050	12	ne	CONTACT_INFO
+209	73	sentence
+284	77	sentence
+363	156	sentence
+521	72	sentence
+595	223	sentence
+820	20	sentence
+842	136	sentence
+979	51	sentence
+1032	115	sentence
+1149	293	sentence
+1444	48	sentence
+1494	192	sentence
+1688	219	sentence
+1909	203	sentence
+2114	7	sentence
+2123	5	sentence

@@ -1,0 +1,15 @@
+
+867	13	ne	FAC
+909	5	ne	ORG_DESC
+931	6	ne	DATE
+938	5	ne	TIME
+947	7	ne	TIME
+976	6	ne	PER_DESC
+1137	4	ne	ORGANIZATION
+1186	5	ne	SUBSTANCE
+1194	14	ne	PERSON
+867	88	sentence
+956	62	sentence
+1019	110	sentence
+1130	62	sentence
+1194	14	sentence

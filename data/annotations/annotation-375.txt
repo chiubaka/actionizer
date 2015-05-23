@@ -1,0 +1,12 @@
+
+321	4	ne	ORGANIZATION
+441	6	ne	PER_DESC
+450	7	ne	PER_DESC
+590	2	ne	CARDINAL
+626	1	ne	CARDINAL
+270	38	sentence
+310	86	sentence
+397	123	sentence
+521	53	sentence
+575	76	sentence
+653	5	sentence

@@ -1,0 +1,8 @@
+
+336	10	ne	FAC_DESC
+366	4	ne	DATE
+407	4	ne	DATE
+320	57	sentence
+379	58	sentence
+439	30	sentence
+471	15	sentence

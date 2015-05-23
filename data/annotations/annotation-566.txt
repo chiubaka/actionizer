@@ -1,0 +1,5 @@
+
+247	6	ne	TIME
+254	8	ne	DATE
+190	98	sentence
+290	6	sentence

@@ -1,0 +1,21 @@
+
+223	3	ne	PERSON
+238	5	ne	CARDINAL
+421	3	ne	CARDINAL
+465	1	ne	CARDINAL
+468	4	ne	FAC_DESC
+476	12	ne	FAC
+493	6	ne	PRODUCT
+514	4	ne	ORG_DESC
+550	1	ne	CARDINAL
+553	56	ne	WORK_OF_ART
+616	44	ne	ORGANIZATION
+667	12	ne	ORGANIZATION
+223	28	sentence
+252	69	sentence
+322	40	sentence
+363	100	sentence
+465	83	sentence
+550	137	sentence
+690	10	sentence
+702	6	sentence

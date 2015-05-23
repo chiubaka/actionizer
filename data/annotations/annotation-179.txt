@@ -1,0 +1,10 @@
+
+228	22	ne	ORGANIZATION
+334	6	ne	ORG_DESC
+386	8	ne	ORGANIZATION
+669	5	ne	PERSON
+228	113	sentence
+343	94	sentence
+438	93	sentence
+532	72	sentence
+606	68	sentence

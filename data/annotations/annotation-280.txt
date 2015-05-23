@@ -1,0 +1,9 @@
+
+310	29	ne	ORGANIZATION
+343	10	ne	GPE
+358	6	ne	DATE
+424	11	ne	DATE
+233	44	sentence
+279	75	sentence
+355	10	sentence
+367	69	sentence

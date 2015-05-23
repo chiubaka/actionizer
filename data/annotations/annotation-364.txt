@@ -1,0 +1,7 @@
+
+378	5	ne	CARDINAL
+460	124	ne	WORK_OF_ART
+237	57	sentence
+295	106	sentence
+405	227	sentence
+634	14	sentence

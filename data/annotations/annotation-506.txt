@@ -1,0 +1,11 @@
+
+230	5	ne	PERSON
+272	19	ne	PRODUCT
+368	9	ne	PERSON
+395	3	ne	FAC_DESC
+458	4	ne	ORGANIZATION
+230	105	sentence
+336	30	sentence
+368	37	sentence
+407	49	sentence
+458	4	sentence

@@ -1,0 +1,29 @@
+
+220	3	ne	PERSON
+273	4	ne	ORG_DESC
+332	8	ne	DATE
+350	7	ne	DATE
+487	11	ne	DATE
+540	13	ne	DATE
+576	6	ne	PER_DESC
+835	2	ne	ORGANIZATION
+925	16	ne	DATE
+1017	6	ne	PER_DESC
+1073	5	ne	DATE
+1149	8	ne	DATE
+1165	4	ne	CARDINAL
+1203	4	ne	FAC_DESC
+1251	6	ne	PER_DESC
+1278	7	ne	PERSON
+220	30	sentence
+251	58	sentence
+311	53	sentence
+365	146	sentence
+512	134	sentence
+647	50	sentence
+698	136	sentence
+835	245	sentence
+1082	53	sentence
+1136	34	sentence
+1171	105	sentence
+1278	7	sentence

@@ -1,0 +1,20 @@
+
+239	8	ne	DATE
+350	8	ne	ORGANIZATION
+375	4	ne	FAC_DESC
+490	8	ne	DATE
+499	7	ne	TIME
+574	5	ne	FAC_DESC
+585	3	ne	ORGANIZATION
+656	8	ne	DATE
+671	3	ne	DATE
+767	7	ne	PERSON
+233	31	sentence
+266	114	sentence
+382	26	sentence
+410	144	sentence
+555	68	sentence
+625	50	sentence
+677	80	sentence
+759	7	sentence
+767	7	sentence

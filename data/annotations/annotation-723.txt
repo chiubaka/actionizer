@@ -1,0 +1,8 @@
+
+177	4	ne	PERSON
+198	8	ne	DATE
+250	4	ne	PERSON
+177	30	sentence
+208	32	sentence
+241	7	sentence
+250	4	sentence

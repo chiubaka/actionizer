@@ -1,0 +1,14 @@
+
+671	13	ne	TIME
+773	4	ne	ORGANIZATION
+796	20	ne	DATE
+819	3	ne	PER_DESC
+823	5	ne	PERSON
+858	6	ne	PER_DESC
+868	8	ne	GPE
+926	20	ne	CONTACT_INFO
+659	68	sentence
+729	49	sentence
+779	133	sentence
+914	10	sentence
+926	20	sentence

@@ -1,0 +1,14 @@
+
+255	7	ne	FAC_DESC
+290	7	ne	PER_DESC
+365	4	ne	FAC_DESC
+484	6	ne	FAC_DESC
+525	3	ne	CARDINAL
+582	12	ne	CONTACT_INFO
+598	11	ne	PERSON
+215	6	sentence
+223	40	sentence
+267	129	sentence
+398	137	sentence
+539	57	sentence
+598	11	sentence

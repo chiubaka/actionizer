@@ -1,0 +1,9 @@
+
+437	8	ne	DATE
+451	17	ne	DATE
+480	6	ne	PER_DESC
+518	4	ne	GPE_DESC
+527	10	ne	DATE
+341	129	sentence
+473	65	sentence
+540	3	sentence

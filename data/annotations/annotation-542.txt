@@ -1,0 +1,15 @@
+
+238	11	ne	PERSON
+266	7	ne	PER_DESC
+281	9	ne	PER_DESC
+331	7	ne	PER_DESC
+346	4	ne	ORGANIZATION
+407	12	ne	TIME
+424	5	ne	TIME
+437	19	ne	GPE
+459	5	ne	LAW
+238	168	sentence
+407	26	sentence
+434	23	sentence
+459	49	sentence
+510	33	sentence

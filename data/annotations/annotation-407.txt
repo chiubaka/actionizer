@@ -1,0 +1,12 @@
+
+230	3	ne	PERSON
+289	3	ne	PERSON
+367	9	ne	DATE
+422	5	ne	ORGANIZATION
+463	7	ne	DATE
+473	11	ne	PERSON
+230	47	sentence
+278	48	sentence
+328	74	sentence
+404	67	sentence
+473	11	sentence

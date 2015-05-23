@@ -1,0 +1,10 @@
+
+257	8	ne	PERSON
+267	5	ne	GPE
+274	10	ne	PERSON
+370	6	ne	ORG_DESC
+446	4	ne	ORGANIZATION
+257	96	sentence
+354	41	sentence
+397	35	sentence
+433	17	sentence

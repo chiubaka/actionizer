@@ -1,0 +1,9 @@
+
+208	6	ne	DATE
+217	3	ne	WORK_OF_ART
+293	4	ne	ORGANIZATION
+187	28	sentence
+216	15	sentence
+233	36	sentence
+270	14	sentence
+285	12	sentence

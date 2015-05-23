@@ -1,0 +1,7 @@
+
+245	4	ne	PERSON
+311	4	ne	PERSON
+318	16	ne	PERSON
+241	33	sentence
+276	40	sentence
+318	16	sentence

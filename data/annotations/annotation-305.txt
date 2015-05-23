@@ -1,0 +1,20 @@
+
+222	3	ne	PERSON
+240	9	ne	GPE
+291	11	ne	GPE
+334	7	ne	NATIONALITY
+342	9	ne	PER_DESC
+533	5	ne	ORDINAL
+629	19	ne	ORG_DESC
+774	8	ne	CARDINAL
+838	7	ne	ORG_DESC
+856	5	ne	ORDINAL
+916	7	ne	PERSON
+222	50	sentence
+274	178	sentence
+453	113	sentence
+567	82	sentence
+651	31	sentence
+683	179	sentence
+863	50	sentence
+916	7	sentence

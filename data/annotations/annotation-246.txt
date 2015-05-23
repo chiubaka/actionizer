@@ -1,0 +1,10 @@
+
+349	1	ne	ORGANIZATION
+437	6	ne	PER_DESC
+524	4	ne	MONEY
+604	9	ne	NATIONALITY
+657	3	ne	PERSON
+349	43	sentence
+393	157	sentence
+551	104	sentence
+657	9	sentence

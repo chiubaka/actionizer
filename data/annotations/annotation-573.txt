@@ -1,0 +1,8 @@
+
+300	11	ne	TIME
+312	5	ne	DATE
+319	6	ne	DATE
+334	4	ne	DATE
+340	4	ne	CONTACT_INFO
+272	67	sentence
+340	4	sentence

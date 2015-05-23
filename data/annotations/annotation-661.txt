@@ -1,0 +1,6 @@
+
+449	6	ne	TIME
+456	9	ne	DATE
+466	9	ne	TIME
+430	46	sentence
+479	13	sentence

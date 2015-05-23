@@ -1,0 +1,7 @@
+
+217	3	ne	PERSON
+281	4	ne	MONEY
+217	26	sentence
+244	42	sentence
+287	45	sentence
+335	12	sentence

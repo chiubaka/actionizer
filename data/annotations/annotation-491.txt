@@ -1,0 +1,7 @@
+
+216	5	ne	PERSON
+292	13	ne	DATE
+331	4	ne	ORGANIZATION
+216	66	sentence
+284	45	sentence
+331	4	sentence

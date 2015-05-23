@@ -1,0 +1,21 @@
+
+357	21	ne	ORGANIZATION
+661	10	ne	PRODUCT
+920	5	ne	ORGANIZATION
+950	9	ne	CONTACT_INFO
+978	3	ne	DATE
+229	3	sentence
+234	41	sentence
+278	100	sentence
+381	59	sentence
+443	80	sentence
+525	42	sentence
+569	74	sentence
+645	27	sentence
+674	109	sentence
+785	12	sentence
+799	98	sentence
+900	48	sentence
+950	9	sentence
+961	21	sentence
+984	41	sentence

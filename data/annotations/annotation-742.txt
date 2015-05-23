@@ -1,0 +1,8 @@
+
+266	7	ne	ORG_DESC
+411	10	ne	PERSON
+205	22	sentence
+229	16	sentence
+247	111	sentence
+360	49	sentence
+411	10	sentence

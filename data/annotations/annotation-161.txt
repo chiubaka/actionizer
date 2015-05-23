@@ -1,0 +1,14 @@
+
+191	6	ne	PERSON
+309	16	ne	PER_DESC
+401	6	ne	DATE
+452	15	ne	DISEASE
+595	1	ne	PERCENT
+650	7	ne	GPE_DESC
+795	14	ne	PERSON
+191	70	sentence
+262	170	sentence
+433	105	sentence
+539	174	sentence
+714	79	sentence
+795	14	sentence

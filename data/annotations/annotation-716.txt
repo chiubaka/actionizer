@@ -1,0 +1,9 @@
+
+167	4	ne	PERSON
+201	9	ne	GPE
+214	5	ne	DATE
+278	11	ne	DATE
+300	4	ne	ORGANIZATION
+167	92	sentence
+260	30	sentence
+292	12	sentence

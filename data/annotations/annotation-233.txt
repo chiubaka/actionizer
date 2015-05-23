@@ -1,0 +1,8 @@
+
+246	13	ne	PERSON
+231	31	sentence
+266	46	sentence
+315	39	sentence
+356	12	sentence
+370	29	sentence
+400	3	sentence

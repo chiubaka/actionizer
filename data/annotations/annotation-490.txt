@@ -1,0 +1,11 @@
+
+227	4	ne	FAC_DESC
+236	17	ne	DATE
+315	5	ne	PERSON
+343	9	ne	DATE
+429	5	ne	PERSON
+204	50	sentence
+255	49	sentence
+305	48	sentence
+354	65	sentence
+421	13	sentence

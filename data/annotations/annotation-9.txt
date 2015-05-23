@@ -1,0 +1,12 @@
+
+242	10	ne	ANIMAL
+305	4	ne	ORGANIZATION
+430	18	ne	DATE
+485	6	ne	PER_DESC
+526	4	ne	ORGANIZATION
+547	10	ne	GPE
+588	12	ne	DATE
+242	68	sentence
+312	64	sentence
+378	180	sentence
+560	47	sentence

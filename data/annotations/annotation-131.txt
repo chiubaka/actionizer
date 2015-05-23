@@ -1,0 +1,25 @@
+
+404	11	ne	ORGANIZATION
+772	4	ne	ORGANIZATION
+904	8	ne	ORGANIZATION
+921	7	ne	PER_DESC
+1141	3	ne	ORGANIZATION
+1429	11	ne	DATE
+1442	7	ne	DATE
+1536	3	ne	ORGANIZATION
+1550	4	ne	PERSON
+374	66	sentence
+442	28	sentence
+472	66	sentence
+540	111	sentence
+653	86	sentence
+741	131	sentence
+874	196	sentence
+1072	29	sentence
+1103	56	sentence
+1161	46	sentence
+1209	96	sentence
+1307	75	sentence
+1386	64	sentence
+1452	96	sentence
+1550	4	sentence

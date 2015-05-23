@@ -1,0 +1,9 @@
+
+250	3	ne	PERSON
+414	1	ne	CARDINAL
+477	3	ne	PERSON
+250	91	sentence
+342	57	sentence
+401	42	sentence
+444	31	sentence
+477	3	sentence

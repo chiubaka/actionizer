@@ -1,0 +1,6 @@
+
+207	5	ne	PERSON
+243	6	ne	LOCATION
+273	4	ne	ORGANIZATION
+207	64	sentence
+273	4	sentence

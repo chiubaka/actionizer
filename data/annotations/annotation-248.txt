@@ -1,0 +1,5 @@
+
+245	8	ne	PERSON
+271	4	ne	PERSON
+227	43	sentence
+271	4	sentence

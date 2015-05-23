@@ -1,0 +1,5 @@
+
+258	17	ne	PERSON
+258	55	sentence
+316	16	sentence
+333	3	sentence

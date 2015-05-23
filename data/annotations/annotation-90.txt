@@ -1,0 +1,6 @@
+
+421	14	ne	DATE
+438	17	ne	PERSON
+314	44	sentence
+359	77	sentence
+438	24	sentence

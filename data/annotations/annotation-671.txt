@@ -1,0 +1,12 @@
+
+324	8	ne	DATE
+333	4	ne	ORGANIZATION
+376	12	ne	ORGANIZATION
+389	3	ne	ORG_DESC
+398	12	ne	PERSON
+476	12	ne	PRODUCT
+574	8	ne	DATE
+304	107	sentence
+413	106	sentence
+522	215	sentence
+739	16	sentence

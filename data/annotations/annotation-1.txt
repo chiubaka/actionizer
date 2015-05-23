@@ -1,0 +1,22 @@
+
+185	9	ne	ORGANIZATION
+279	13	ne	ORGANIZATION
+302	9	ne	ORGANIZATION
+380	12	ne	PERSON
+529	2	ne	CARDINAL
+532	8	ne	ORG_DESC
+708	7	ne	NATIONALITY
+716	8	ne	ORG_DESC
+803	9	ne	DATE
+871	41	ne	ORGANIZATION
+938	4	ne	PERSON
+185	37	sentence
+224	69	sentence
+294	62	sentence
+358	163	sentence
+523	65	sentence
+590	104	sentence
+696	92	sentence
+790	124	sentence
+919	12	sentence
+938	4	sentence

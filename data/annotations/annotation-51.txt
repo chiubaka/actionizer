@@ -1,0 +1,17 @@
+
+242	8	ne	WORK_OF_ART
+507	11	ne	PER_DESC
+519	8	ne	PER_DESC
+528	11	ne	PER_DESC
+562	3	ne	PERSON
+633	3	ne	PERSON
+651	8	ne	ORG_DESC
+885	3	ne	PERSON
+228	23	sentence
+252	65	sentence
+318	123	sentence
+443	158	sentence
+603	123	sentence
+728	143	sentence
+873	121	sentence
+996	4	sentence

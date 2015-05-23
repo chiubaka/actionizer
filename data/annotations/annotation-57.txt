@@ -1,0 +1,9 @@
+
+233	7	ne	PERSON
+296	9	ne	ORG_DESC
+327	10	ne	ORG_DESC
+423	4	ne	PERSON
+233	33	sentence
+268	106	sentence
+376	45	sentence
+423	4	sentence

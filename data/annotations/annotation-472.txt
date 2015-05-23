@@ -1,0 +1,5 @@
+
+356	5	ne	PERSON
+314	30	sentence
+346	7	sentence
+356	5	sentence

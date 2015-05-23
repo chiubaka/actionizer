@@ -1,0 +1,21 @@
+
+311	6	ne	PERSON
+357	5	ne	FAC_DESC
+376	7	ne	DATE
+427	12	ne	GPE
+485	17	ne	TIME
+520	4	ne	GPE
+580	4	ne	FAC_DESC
+647	4	ne	ORGANIZATION
+655	7	ne	DATE
+709	19	ne	ORGANIZATION
+827	9	ne	PER_DESC
+847	7	ne	PERSON
+311	73	sentence
+386	73	sentence
+461	124	sentence
+587	76	sentence
+665	110	sentence
+777	60	sentence
+839	7	sentence
+847	7	sentence

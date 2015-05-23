@@ -1,0 +1,28 @@
+
+312	7	ne	PERSON
+340	5	ne	PER_DESC
+415	4	ne	ORGANIZATION
+460	5	ne	PER_DESC
+510	11	ne	FAC_DESC
+547	4	ne	DATE
+598	6	ne	FAC_DESC
+629	5	ne	PER_DESC
+650	6	ne	ORDINAL
+757	2	ne	CARDINAL
+789	7	ne	DATE
+808	2	ne	CARDINAL
+832	2	ne	CARDINAL
+879	6	ne	ORG_DESC
+969	3	ne	PERSON
+312	58	sentence
+371	21	sentence
+394	48	sentence
+443	96	sentence
+540	70	sentence
+611	70	sentence
+683	25	sentence
+710	50	sentence
+761	36	sentence
+799	56	sentence
+857	110	sentence
+969	3	sentence

@@ -1,0 +1,47 @@
+
+250	8	ne	PER_DESC
+350	6	ne	PER_DESC
+538	6	ne	FAC_DESC
+550	6	ne	PER_DESC
+606	6	ne	PER_DESC
+613	9	ne	PER_DESC
+689	6	ne	PER_DESC
+717	5	ne	FAC_DESC
+761	20	ne	PERSON
+806	8	ne	PER_DESC
+851	6	ne	PER_DESC
+922	7	ne	PER_DESC
+979	12	ne	CARDINAL
+1105	6	ne	PER_DESC
+1163	6	ne	PER_DESC
+1223	6	ne	PER_DESC
+1267	5	ne	ORG_DESC
+1308	5	ne	ORDINAL
+1315	6	ne	ORDINAL
+1322	7	ne	PER_DESC
+1397	4	ne	MONEY
+1454	7	ne	PER_DESC
+198	61	sentence
+260	59	sentence
+321	23	sentence
+345	54	sentence
+400	35	sentence
+436	26	sentence
+463	65	sentence
+530	68	sentence
+599	31	sentence
+631	33	sentence
+666	17	sentence
+684	76	sentence
+761	21	sentence
+783	33	sentence
+817	42	sentence
+861	26	sentence
+888	42	sentence
+931	44	sentence
+976	68	sentence
+1046	38	sentence
+1085	132	sentence
+1218	79	sentence
+1299	132	sentence
+1432	97	sentence

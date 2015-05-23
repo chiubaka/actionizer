@@ -1,0 +1,3 @@
+
+267	7	ne	PERSON
+241	33	sentence

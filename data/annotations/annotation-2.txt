@@ -1,0 +1,11 @@
+
+257	4	ne	PERSON
+464	5	ne	ORGANIZATION
+487	5	ne	ORGANIZATION
+651	5	ne	PERSON
+257	77	sentence
+336	29	sentence
+367	114	sentence
+483	119	sentence
+604	45	sentence
+651	5	sentence

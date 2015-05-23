@@ -1,0 +1,9 @@
+
+336	6	ne	PERSON
+461	6	ne	ORGANIZATION
+572	6	ne	DISEASE
+594	4	ne	PERSON
+336	70	sentence
+408	52	sentence
+461	132	sentence
+594	4	sentence

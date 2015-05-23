@@ -1,0 +1,5 @@
+
+160	4	ne	PERSON
+160	20	sentence
+181	63	sentence
+245	13	sentence

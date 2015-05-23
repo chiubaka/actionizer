@@ -1,0 +1,12 @@
+
+357	12	ne	DATE
+393	6	ne	ORG_DESC
+403	12	ne	DATE
+441	9	ne	DATE
+534	16	ne	PERSON
+233	77	sentence
+312	104	sentence
+418	33	sentence
+453	71	sentence
+525	7	sentence
+534	16	sentence

@@ -1,0 +1,16 @@
+
+199	4	ne	PERSON
+206	12	ne	PERSON
+244	5	ne	DATE
+266	10	ne	GPE
+278	13	ne	PERSON
+307	7	ne	ORGANIZATION
+323	3	ne	PRODUCT
+367	7	ne	ORGANIZATION
+395	5	ne	ORGANIZATION
+199	51	sentence
+252	25	sentence
+278	37	sentence
+317	105	sentence
+424	29	sentence
+455	8	sentence

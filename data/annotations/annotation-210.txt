@@ -1,0 +1,12 @@
+
+386	4	ne	PERSON
+395	9	ne	PERSON
+582	9	ne	ORGANIZATION
+599	15	ne	PERSON
+668	8	ne	ORG_DESC
+732	8	ne	NATIONALITY
+752	3	ne	PERSON
+386	134	sentence
+521	114	sentence
+636	114	sentence
+752	3	sentence

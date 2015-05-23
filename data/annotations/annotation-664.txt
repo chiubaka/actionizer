@@ -1,0 +1,6 @@
+
+417	5	ne	PERSON
+445	7	ne	DATE
+455	4	ne	PERSON
+417	36	sentence
+455	4	sentence

@@ -1,0 +1,11 @@
+
+216	5	ne	ANIMAL
+292	5	ne	ORGANIZATION
+311	5	ne	DATE
+319	14	ne	DATE
+543	10	ne	ORGANIZATION
+216	50	sentence
+268	78	sentence
+348	37	sentence
+387	66	sentence
+455	98	sentence

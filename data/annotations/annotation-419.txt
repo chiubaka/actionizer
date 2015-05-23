@@ -1,0 +1,6 @@
+
+283	3	ne	CONTACT_INFO
+458	9	ne	NATIONALITY
+248	38	sentence
+287	155	sentence
+443	24	sentence

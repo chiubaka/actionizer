@@ -1,0 +1,6 @@
+
+261	10	ne	CARDINAL
+306	7	ne	TIME
+324	4	ne	PERSON
+257	63	sentence
+322	6	sentence

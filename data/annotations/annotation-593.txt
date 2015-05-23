@@ -1,0 +1,11 @@
+
+462	8	ne	DATE
+607	7	ne	TIME
+621	1	ne	CARDINAL
+630	6	ne	PER_DESC
+642	10	ne	TIME
+655	3	ne	PERSON
+416	126	sentence
+543	36	sentence
+580	73	sentence
+655	3	sentence

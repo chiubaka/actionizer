@@ -1,0 +1,11 @@
+
+261	3	ne	PERSON
+283	5	ne	ORG_DESC
+371	43	ne	ORGANIZATION
+455	5	ne	ORG_DESC
+524	8	ne	PER_DESC
+261	154	sentence
+417	129	sentence
+547	81	sentence
+630	45	sentence
+676	13	sentence

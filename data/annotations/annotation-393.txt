@@ -1,0 +1,10 @@
+
+245	2	ne	ORGANIZATION
+265	7	ne	ORG_DESC
+331	12	ne	DATE
+398	9	ne	PER_DESC
+431	3	ne	PERSON
+241	57	sentence
+299	51	sentence
+351	78	sentence
+431	3	sentence

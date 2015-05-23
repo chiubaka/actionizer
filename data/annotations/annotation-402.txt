@@ -1,0 +1,10 @@
+
+227	6	ne	PERSON
+340	7	ne	ORG_DESC
+393	2	ne	GPE
+438	1	ne	CARDINAL
+450	9	ne	GPE_DESC
+469	3	ne	ORGANIZATION
+227	121	sentence
+349	111	sentence
+462	10	sentence

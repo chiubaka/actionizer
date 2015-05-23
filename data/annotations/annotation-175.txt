@@ -1,0 +1,6 @@
+
+284	13	ne	PERSON
+271	27	sentence
+301	28	sentence
+331	27	sentence
+359	3	sentence

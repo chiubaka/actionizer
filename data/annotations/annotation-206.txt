@@ -1,0 +1,21 @@
+
+233	13	ne	PERSON
+393	10	ne	ORGANIZATION
+440	18	ne	ORGANIZATION
+459	6	ne	PERSON
+579	44	ne	WORK_OF_ART
+625	8	ne	PRODUCT
+651	3	ne	CONTACT_INFO
+655	8	ne	DATE
+733	7	ne	ORG_DESC
+831	12	ne	PERSON
+946	14	ne	PERSON
+233	113	sentence
+347	156	sentence
+504	48	sentence
+555	126	sentence
+683	104	sentence
+789	63	sentence
+853	39	sentence
+893	39	sentence
+934	33	sentence

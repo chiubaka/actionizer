@@ -1,0 +1,6 @@
+
+282	5	ne	CARDINAL
+381	14	ne	ORGANIZATION
+220	81	sentence
+302	69	sentence
+373	22	sentence

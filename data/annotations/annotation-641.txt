@@ -1,0 +1,9 @@
+
+216	5	ne	PERSON
+259	3	ne	CONTACT_INFO
+264	23	ne	TIME
+294	3	ne	DATE
+317	3	ne	PERSON
+212	23	sentence
+236	62	sentence
+299	21	sentence

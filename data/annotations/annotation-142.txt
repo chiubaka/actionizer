@@ -1,0 +1,6 @@
+
+343	3	ne	PERSON
+343	17	sentence
+361	17	sentence
+379	10	sentence
+390	5	sentence

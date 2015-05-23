@@ -1,0 +1,11 @@
+
+315	7	ne	ORGANIZATION
+434	4	ne	ORGANIZATION
+439	5	ne	ORG_DESC
+715	7	ne	PERSON
+315	75	sentence
+391	54	sentence
+447	47	sentence
+496	122	sentence
+620	93	sentence
+715	7	sentence

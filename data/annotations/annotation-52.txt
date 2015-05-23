@@ -1,0 +1,9 @@
+
+249	11	ne	DATE
+279	13	ne	ORGANIZATION
+336	7	ne	PER_DESC
+384	18	ne	PERSON
+214	79	sentence
+294	79	sentence
+375	7	sentence
+384	18	sentence

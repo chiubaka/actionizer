@@ -1,0 +1,23 @@
+
+279	5	ne	ORG_DESC
+308	8	ne	DATE
+574	5	ne	PERSON
+606	12	ne	DATE
+849	12	ne	ORG_DESC
+904	3	ne	PER_DESC
+952	6	ne	DATE
+969	5	ne	ORDINAL
+1005	8	ne	DATE
+1017	5	ne	ORG_DESC
+1160	8	ne	DATE
+1240	8	ne	DATE
+1297	6	ne	DATE
+1310	3	ne	ORGANIZATION
+1463	12	ne	ORG_DESC
+233	170	sentence
+405	175	sentence
+582	280	sentence
+864	261	sentence
+1127	42	sentence
+1171	53	sentence
+1226	250	sentence

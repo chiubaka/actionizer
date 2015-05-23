@@ -1,0 +1,3 @@
+
+247	4	ne	PERSON
+247	60	sentence

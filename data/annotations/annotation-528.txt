@@ -1,0 +1,13 @@
+
+369	6	ne	PERSON
+401	3	ne	PERSON
+442	3	ne	TIME
+446	5	ne	DATE
+459	7	ne	PER_DESC
+560	7	ne	ORGANIZATION
+617	7	ne	DATE
+361	142	sentence
+506	36	sentence
+548	7	sentence
+560	8	sentence
+570	55	sentence

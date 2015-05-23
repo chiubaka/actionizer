@@ -1,0 +1,15 @@
+
+235	6	ne	PERSON
+374	8	ne	DATE
+405	6	ne	PER_DESC
+426	4	ne	FAC_DESC
+470	8	ne	DATE
+521	19	ne	DATE
+571	5	ne	PERSON
+235	55	sentence
+292	42	sentence
+336	32	sentence
+370	42	sentence
+414	72	sentence
+488	81	sentence
+571	5	sentence

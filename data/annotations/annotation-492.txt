@@ -1,0 +1,21 @@
+
+190	5	ne	PERSON
+229	3	ne	CARDINAL
+233	7	ne	ORG_DESC
+272	3	ne	ORDINAL
+276	5	ne	FAC_DESC
+285	3	ne	ORGANIZATION
+289	13	ne	DATE
+332	5	ne	ORGANIZATION
+426	6	ne	ORG_DESC
+434	6	ne	PERSON
+508	6	ne	PER_DESC
+533	6	ne	ORG_DESC
+595	16	ne	PERSON
+190	94	sentence
+285	18	sentence
+304	34	sentence
+339	69	sentence
+409	131	sentence
+541	46	sentence
+588	23	sentence

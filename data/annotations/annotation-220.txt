@@ -1,0 +1,12 @@
+
+251	3	ne	PERSON
+278	2	ne	MONEY
+340	2	ne	MONEY
+359	2	ne	GPE
+385	9	ne	PER_DESC
+587	9	ne	PER_DESC
+247	71	sentence
+319	24	sentence
+344	92	sentence
+439	176	sentence
+618	13	sentence

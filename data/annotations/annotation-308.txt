@@ -1,0 +1,14 @@
+
+211	3	ne	PERSON
+248	8	ne	ORGANIZATION
+275	6	ne	ORG_DESC
+437	8	ne	DATE
+506	3	ne	ORGANIZATION
+526	3	ne	ORGANIZATION
+559	7	ne	PERSON
+211	88	sentence
+300	67	sentence
+369	77	sentence
+447	58	sentence
+506	51	sentence
+559	18	sentence

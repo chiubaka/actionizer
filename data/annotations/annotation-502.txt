@@ -1,0 +1,19 @@
+
+362	8	ne	DATE
+372	6	ne	DATE
+384	6	ne	DATE
+399	6	ne	PER_DESC
+436	15	ne	TIME
+489	10	ne	DATE
+535	18	ne	DATE
+558	20	ne	DATE
+580	3	ne	DATE
+585	9	ne	ORGANIZATION
+595	3	ne	PRODUCT
+623	16	ne	TIME
+640	4	ne	DATE
+656	10	ne	DATE
+338	122	sentence
+462	236	sentence
+700	47	sentence
+749	3	sentence

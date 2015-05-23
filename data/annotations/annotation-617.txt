@@ -1,0 +1,4 @@
+
+273	5	ne	PERSON
+242	30	sentence
+273	5	sentence

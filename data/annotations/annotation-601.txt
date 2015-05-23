@@ -1,0 +1,13 @@
+
+223	6	ne	ORGANIZATION
+242	7	ne	DATE
+278	3	ne	CARDINAL
+316	6	ne	ORGANIZATION
+328	4	ne	PER_DESC
+339	28	ne	CONTACT_INFO
+367	12	ne	CONTACT_INFO
+180	70	sentence
+252	30	sentence
+284	95	sentence
+381	63	sentence
+446	43	sentence

@@ -1,0 +1,12 @@
+
+246	3	ne	ORGANIZATION
+275	4	ne	GPE_DESC
+282	18	ne	PERSON
+335	8	ne	DATE
+508	6	ne	PERSON
+207	73	sentence
+282	62	sentence
+346	75	sentence
+423	74	sentence
+499	7	sentence
+508	6	sentence

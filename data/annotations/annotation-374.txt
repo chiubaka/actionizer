@@ -1,0 +1,13 @@
+
+362	5	ne	DATE
+369	5	ne	CARDINAL
+513	2	ne	DATE
+546	6	ne	PER_DESC
+581	2	ne	CARDINAL
+609	3	ne	PERSON
+300	11	sentence
+313	62	sentence
+376	54	sentence
+431	155	sentence
+587	20	sentence
+609	3	sentence

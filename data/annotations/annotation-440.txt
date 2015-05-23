@@ -1,0 +1,18 @@
+
+205	8	ne	PERSON
+260	3	ne	ORGANIZATION
+329	7	ne	LOCATION
+454	4	ne	PERSON
+479	6	ne	GPE
+539	4	ne	PERSON
+570	5	ne	ORG_DESC
+660	6	ne	ORG_DESC
+703	11	ne	ORGANIZATION
+205	68	sentence
+274	63	sentence
+338	115	sentence
+454	55	sentence
+510	27	sentence
+539	77	sentence
+617	70	sentence
+689	26	sentence

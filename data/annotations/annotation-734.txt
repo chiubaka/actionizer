@@ -1,0 +1,6 @@
+
+184	5	ne	PERSON
+279	4	ne	PERSON
+184	35	sentence
+220	58	sentence
+279	4	sentence

@@ -1,0 +1,4 @@
+
+269	6	ne	ORG_DESC
+243	33	sentence
+277	10	sentence

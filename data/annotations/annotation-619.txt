@@ -1,0 +1,8 @@
+
+335	5	ne	DATE
+503	6	ne	LOCATION
+916	11	ne	DATE
+929	9	ne	PERSON
+252	289	sentence
+542	202	sentence
+745	193	sentence

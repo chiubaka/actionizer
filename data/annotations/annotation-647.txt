@@ -1,0 +1,3 @@
+
+392	10	ne	DATE
+385	31	sentence

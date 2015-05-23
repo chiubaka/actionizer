@@ -1,0 +1,5 @@
+
+259	6	ne	ORG_DESC
+271	5	ne	PERSON
+225	41	sentence
+271	5	sentence

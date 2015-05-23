@@ -1,0 +1,9 @@
+
+311	10	ne	PERSON
+370	10	ne	TIME
+412	4	ne	SUBSTANCE
+426	4	ne	PERSON
+311	31	sentence
+343	46	sentence
+390	27	sentence
+418	12	sentence

@@ -1,0 +1,9 @@
+
+210	13	ne	WORK_OF_ART
+250	5	ne	ORG_DESC
+343	7	ne	PER_DESC
+512	7	ne	ORGANIZATION
+210	46	sentence
+257	57	sentence
+315	195	sentence
+512	7	sentence

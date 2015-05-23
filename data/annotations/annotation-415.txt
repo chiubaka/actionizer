@@ -1,0 +1,6 @@
+
+235	3	ne	PERSON
+235	45	sentence
+281	62	sentence
+344	25	sentence
+370	6	sentence

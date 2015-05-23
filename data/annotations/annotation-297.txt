@@ -1,0 +1,5 @@
+
+197	6	ne	PERSON
+197	72	sentence
+270	36	sentence
+308	12	sentence

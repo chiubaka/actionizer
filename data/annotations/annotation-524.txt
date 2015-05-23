@@ -1,0 +1,7 @@
+
+253	6	ne	PERSON
+412	4	ne	PERSON
+253	97	sentence
+351	28	sentence
+380	22	sentence
+404	12	sentence

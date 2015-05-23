@@ -1,0 +1,28 @@
+
+245	6	ne	PERSON
+349	14	ne	DATE
+659	3	ne	ORGANIZATION
+678	12	ne	DATE
+765	13	ne	CARDINAL
+818	11	ne	PER_DESC
+966	4	ne	ORGANIZATION
+1001	9	ne	PER_DESC
+1011	16	ne	PERSON
+1071	11	ne	PER_DESC
+1288	4	ne	ORGANIZATION
+1327	11	ne	PER_DESC
+1379	12	ne	ORG_DESC
+245	66	sentence
+313	197	sentence
+512	141	sentence
+655	62	sentence
+718	85	sentence
+805	34	sentence
+841	87	sentence
+930	53	sentence
+985	204	sentence
+1191	80	sentence
+1273	171	sentence
+1446	23	sentence
+1471	45	sentence
+1518	4	sentence

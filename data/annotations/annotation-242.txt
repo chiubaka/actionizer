@@ -1,0 +1,8 @@
+
+247	14	ne	ORGANIZATION
+262	20	ne	PER_DESC
+404	8	ne	DATE
+217	82	sentence
+302	75	sentence
+379	123	sentence
+504	3	sentence

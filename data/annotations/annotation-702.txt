@@ -1,0 +1,7 @@
+
+320	5	ne	PERSON
+378	5	ne	PER_DESC
+478	11	ne	ORGANIZATION
+320	64	sentence
+386	78	sentence
+466	23	sentence

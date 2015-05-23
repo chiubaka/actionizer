@@ -1,0 +1,21 @@
+
+245	7	ne	PERSON
+280	5	ne	ORG_DESC
+287	7	ne	PER_DESC
+346	5	ne	ORG_DESC
+390	3	ne	PRODUCT
+427	11	ne	PERSON
+441	5	ne	PERSON
+521	3	ne	DATE
+681	6	ne	DATE
+697	7	ne	PER_DESC
+742	5	ne	ORG_DESC
+748	7	ne	PER_DESC
+785	7	ne	PERSON
+212	19	sentence
+233	161	sentence
+396	67	sentence
+465	60	sentence
+527	47	sentence
+576	129	sentence
+707	99	sentence

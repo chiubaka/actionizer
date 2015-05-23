@@ -1,0 +1,9 @@
+
+243	5	ne	PER_DESC
+252	12	ne	FAC
+277	6	ne	PER_DESC
+421	4	ne	ORGANIZATION
+204	92	sentence
+297	84	sentence
+382	29	sentence
+413	12	sentence

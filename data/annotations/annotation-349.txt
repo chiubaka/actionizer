@@ -1,0 +1,9 @@
+
+262	14	ne	PERSON
+327	6	ne	DATE
+334	9	ne	TIME
+387	8	ne	DATE
+248	148	sentence
+398	30	sentence
+431	12	sentence
+445	3	sentence

@@ -1,0 +1,18 @@
+
+360	7	ne	TIME
+408	5	ne	PERSON
+418	3	ne	PERSON
+447	14	ne	DATE
+464	14	ne	EVENT
+588	3	ne	PERSON
+640	6	ne	PERSON
+673	9	ne	DATE
+724	5	ne	DATE
+830	5	ne	PERSON
+355	124	sentence
+482	36	sentence
+521	112	sentence
+640	101	sentence
+743	74	sentence
+819	10	sentence
+830	5	sentence

@@ -1,0 +1,4 @@
+
+244	13	ne	ORGANIZATION
+230	11	sentence
+242	15	sentence

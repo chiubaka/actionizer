@@ -1,0 +1,25 @@
+
+231	7	ne	PERSON
+384	3	ne	PERCENT
+463	12	ne	ORG_DESC
+491	6	ne	FAC_DESC
+523	1	ne	CARDINAL
+582	3	ne	CARDINAL
+605	24	ne	FAC
+633	11	ne	CONTACT_INFO
+644	27	ne	ORGANIZATION
+672	5	ne	CONTACT_INFO
+805	7	ne	GPE
+813	5	ne	FAC_DESC
+863	4	ne	MONEY
+872	6	ne	PER_DESC
+883	5	ne	TIME
+928	6	ne	PERSON
+231	133	sentence
+366	132	sentence
+500	103	sentence
+605	72	sentence
+678	43	sentence
+723	117	sentence
+842	83	sentence
+928	6	sentence

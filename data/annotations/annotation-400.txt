@@ -1,0 +1,9 @@
+
+222	8	ne	PERSON
+280	21	ne	DATE
+519	12	ne	DATE
+543	6	ne	PERSON
+222	130	sentence
+353	103	sentence
+457	75	sentence
+535	14	sentence

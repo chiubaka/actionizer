@@ -1,0 +1,6 @@
+
+300	4	ne	ORGANIZATION
+223	32	sentence
+257	18	sentence
+277	21	sentence
+300	4	sentence

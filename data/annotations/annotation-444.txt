@@ -1,0 +1,26 @@
+
+216	3	ne	PERSON
+280	2	ne	ORGANIZATION
+283	7	ne	SUBSTANCE
+319	6	ne	GPE
+476	6	ne	CARDINAL
+589	9	ne	CARDINAL
+683	2	ne	GPE
+690	2	ne	GPE
+831	8	ne	DATE
+858	8	ne	MONEY
+905	3	ne	PERSON
+954	8	ne	DATE
+1026	6	ne	DATE
+1076	12	ne	DATE
+1231	8	ne	DATE
+1242	7	ne	PERSON
+216	28	sentence
+245	46	sentence
+292	157	sentence
+450	214	sentence
+665	111	sentence
+778	311	sentence
+1090	78	sentence
+1170	70	sentence
+1242	7	sentence

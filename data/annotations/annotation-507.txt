@@ -1,0 +1,7 @@
+
+199	5	ne	ORDINAL
+205	5	ne	FAC_DESC
+225	4	ne	DATE
+267	2	ne	CONTACT_INFO
+189	76	sentence
+267	2	sentence

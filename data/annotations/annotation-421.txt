@@ -1,0 +1,17 @@
+
+461	3	ne	PERSON
+680	40	ne	ORGANIZATION
+725	10	ne	ORGANIZATION
+809	7	ne	ORGANIZATION
+982	5	ne	DATE
+1234	5	ne	DATE
+1432	7	ne	PERSON
+461	85	sentence
+548	188	sentence
+737	70	sentence
+809	209	sentence
+1021	54	sentence
+1076	171	sentence
+1248	56	sentence
+1306	123	sentence
+1432	7	sentence

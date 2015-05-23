@@ -1,0 +1,5 @@
+
+360	4	ne	TIME
+369	4	ne	PERSON
+347	18	sentence
+367	6	sentence

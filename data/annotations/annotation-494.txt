@@ -1,0 +1,8 @@
+
+388	6	ne	ORG_DESC
+395	14	ne	DATE
+410	9	ne	TIME
+421	7	ne	DATE
+435	21	ne	FAC
+367	90	sentence
+459	3	sentence

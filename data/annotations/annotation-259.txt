@@ -1,0 +1,59 @@
+
+260	7	ne	PERSON
+338	6	ne	FAC_DESC
+353	2	ne	GPE
+386	9	ne	DATE
+426	12	ne	DATE
+442	3	ne	DATE
+449	5	ne	ORDINAL
+455	7	ne	DATE
+466	4	ne	DATE
+501	5	ne	MONEY
+532	8	ne	CARDINAL
+541	9	ne	PER_DESC
+555	7	ne	DATE
+571	11	ne	MONEY
+587	7	ne	PER_DESC
+832	11	ne	PER_DESC
+931	6	ne	PER_DESC
+957	6	ne	LOCATION
+1123	11	ne	PER_DESC
+1165	2	ne	ORGANIZATION
+1213	5	ne	GPE_DESC
+1273	6	ne	ORDINAL
+1379	3	ne	ORGANIZATION
+1600	11	ne	PER_DESC
+1651	9	ne	PER_DESC
+1734	10	ne	DISEASE
+1745	8	ne	PER_DESC
+1760	10	ne	TIME
+1808	3	ne	CARDINAL
+1812	6	ne	ORG_DESC
+1872	8	ne	TIME
+1895	10	ne	DATE
+1925	9	ne	TIME
+2088	12	ne	PER_DESC
+2101	9	ne	DATE
+2113	3	ne	PERSON
+260	136	sentence
+398	73	sentence
+473	123	sentence
+598	48	sentence
+647	142	sentence
+791	111	sentence
+904	60	sentence
+966	102	sentence
+1070	65	sentence
+1137	31	sentence
+1170	100	sentence
+1271	71	sentence
+1344	40	sentence
+1385	63	sentence
+1450	113	sentence
+1565	141	sentence
+1708	63	sentence
+1773	83	sentence
+1858	112	sentence
+1972	82	sentence
+2056	55	sentence
+2113	3	sentence

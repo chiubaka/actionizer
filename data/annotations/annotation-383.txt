@@ -1,0 +1,7 @@
+
+263	3	ne	CARDINAL
+282	3	ne	ORG_DESC
+518	5	ne	ORG_DESC
+641	9	ne	ORGANIZATION
+235	399	sentence
+635	15	sentence

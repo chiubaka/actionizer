@@ -1,0 +1,13 @@
+
+280	14	ne	DATE
+308	5	ne	DATE
+330	5	ne	SUBSTANCE
+405	8	ne	DATE
+441	5	ne	PERSON
+496	6	ne	DATE
+505	3	ne	PERSON
+266	48	sentence
+315	68	sentence
+384	87	sentence
+472	31	sentence
+505	3	sentence

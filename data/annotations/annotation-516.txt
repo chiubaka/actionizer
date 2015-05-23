@@ -1,0 +1,9 @@
+
+344	2	ne	ORGANIZATION
+449	5	ne	PERSON
+237	54	sentence
+293	54	sentence
+350	65	sentence
+417	22	sentence
+441	7	sentence
+449	5	sentence

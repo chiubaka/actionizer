@@ -1,0 +1,16 @@
+
+227	3	ne	PERSON
+310	17	ne	PERSON
+333	6	ne	GPE
+426	12	ne	PERSON
+505	9	ne	GPE
+720	6	ne	PER_DESC
+888	7	ne	PERSON
+227	54	sentence
+282	128	sentence
+411	53	sentence
+465	124	sentence
+591	84	sentence
+676	118	sentence
+795	91	sentence
+888	7	sentence

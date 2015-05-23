@@ -1,0 +1,20 @@
+
+187	5	ne	PERSON
+194	9	ne	ORGANIZATION
+236	7	ne	TIME
+316	10	ne	TIME
+360	54	ne	DATE
+500	10	ne	TIME
+539	10	ne	DATE
+575	11	ne	TIME
+588	11	ne	DATE
+608	4	ne	PERSON
+187	30	sentence
+218	38	sentence
+257	70	sentence
+328	209	sentence
+539	21	sentence
+561	7	sentence
+569	18	sentence
+588	18	sentence
+608	4	sentence

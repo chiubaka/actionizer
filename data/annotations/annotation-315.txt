@@ -1,0 +1,7 @@
+
+223	6	ne	PERSON
+341	7	ne	PERSON
+223	43	sentence
+267	46	sentence
+314	25	sentence
+341	7	sentence

@@ -1,0 +1,12 @@
+
+310	5	ne	FAC
+329	18	ne	ORGANIZATION
+600	10	ne	PERSON
+743	18	ne	PERSON
+280	92	sentence
+373	113	sentence
+487	87	sentence
+576	35	sentence
+612	103	sentence
+716	25	sentence
+743	18	sentence

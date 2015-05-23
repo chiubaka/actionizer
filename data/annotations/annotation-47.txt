@@ -1,0 +1,21 @@
+
+235	11	ne	PERSON
+297	3	ne	DATE
+314	15	ne	PERSON
+343	9	ne	DATE
+357	5	ne	PERSON
+364	3	ne	PERSON
+381	9	ne	DATE
+419	7	ne	DATE
+430	5	ne	DATE
+439	3	ne	DATE
+573	5	ne	ORG_DESC
+764	18	ne	DATE
+803	18	ne	PERSON
+214	98	sentence
+314	77	sentence
+393	75	sentence
+470	65	sentence
+537	116	sentence
+655	146	sentence
+803	18	sentence

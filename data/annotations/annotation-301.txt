@@ -1,0 +1,14 @@
+
+314	8	ne	DATE
+323	7	ne	TIME
+429	8	ne	DATE
+638	7	ne	DATE
+658	10	ne	TIME
+223	21	sentence
+245	36	sentence
+282	100	sentence
+383	101	sentence
+485	89	sentence
+576	100	sentence
+678	7	sentence
+687	5	sentence

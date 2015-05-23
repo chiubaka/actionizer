@@ -1,0 +1,13 @@
+
+192	9	ne	PERSON
+457	4	ne	CARDINAL
+511	9	ne	DATE
+650	1	ne	MONEY
+192	175	sentence
+369	165	sentence
+536	38	sentence
+576	142	sentence
+720	18	sentence
+740	86	sentence
+828	45	sentence
+875	5	sentence

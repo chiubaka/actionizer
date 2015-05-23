@@ -1,0 +1,11 @@
+
+271	13	ne	DISEASE
+310	4	ne	ORGANIZATION
+337	5	ne	ORGANIZATION
+343	7	ne	DATE
+398	8	ne	PER_DESC
+461	4	ne	PERSON
+216	23	sentence
+240	120	sentence
+361	99	sentence
+461	4	sentence

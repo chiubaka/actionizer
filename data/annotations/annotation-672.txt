@@ -1,0 +1,10 @@
+
+401	4	ne	PERSON
+429	5	ne	ORGANIZATION
+435	33	ne	ORGANIZATION
+481	7	ne	DATE
+492	7	ne	TIME
+400	22	sentence
+425	112	sentence
+540	18	sentence
+561	11	sentence

@@ -1,0 +1,20 @@
+
+488	1	ne	CARDINAL
+490	3	ne	PRODUCT_DESC
+503	9	ne	FAC
+516	3	ne	ORGANIZATION
+637	6	ne	PER_DESC
+680	9	ne	PER_DESC
+713	3	ne	PRODUCT_DESC
+735	3	ne	PRODUCT_DESC
+741	3	ne	ORGANIZATION
+785	3	ne	ORGANIZATION
+853	11	ne	PERSON
+385	18	sentence
+405	39	sentence
+445	136	sentence
+583	84	sentence
+668	71	sentence
+741	17	sentence
+759	92	sentence
+853	11	sentence

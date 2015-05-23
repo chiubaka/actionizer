@@ -1,0 +1,6 @@
+
+304	2	ne	PERSON
+332	18	ne	PERSON
+229	74	sentence
+304	26	sentence
+332	18	sentence

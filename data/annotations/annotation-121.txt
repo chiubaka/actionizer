@@ -1,0 +1,8 @@
+
+212	6	ne	PERSON
+229	7	ne	DATE
+282	10	ne	DATE
+310	4	ne	DATE
+212	145	sentence
+359	64	sentence
+425	5	sentence

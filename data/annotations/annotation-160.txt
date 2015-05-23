@@ -1,0 +1,16 @@
+
+236	3	ne	PERSON
+439	3	ne	CARDINAL
+443	9	ne	PER_DESC
+600	7	ne	PERSON
+714	7	ne	PERSON
+779	11	ne	PERSON
+236	17	sentence
+254	53	sentence
+308	40	sentence
+349	12	sentence
+362	75	sentence
+439	156	sentence
+596	96	sentence
+694	83	sentence
+779	11	sentence

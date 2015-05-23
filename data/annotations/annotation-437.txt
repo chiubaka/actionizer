@@ -1,0 +1,13 @@
+
+209	6	ne	PERSON
+302	8	ne	ORG_DESC
+421	9	ne	PER_DESC
+456	6	ne	DATE
+464	3	ne	PRODUCT
+471	4	ne	SUBSTANCE
+483	5	ne	PERSON
+209	36	sentence
+247	64	sentence
+313	78	sentence
+393	54	sentence
+449	39	sentence

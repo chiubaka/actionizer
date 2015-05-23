@@ -1,0 +1,19 @@
+
+209	3	ne	PERSON
+214	12	ne	PERSON
+242	14	ne	LOCATION
+292	1	ne	CARDINAL
+309	6	ne	LOCATION
+341	5	ne	PER_DESC
+363	6	ne	PER_DESC
+507	3	ne	CARDINAL
+546	16	ne	PRODUCT_DESC
+779	13	ne	PER_DESC
+795	7	ne	PERSON
+209	68	sentence
+278	47	sentence
+326	180	sentence
+507	56	sentence
+564	79	sentence
+644	149	sentence
+795	7	sentence

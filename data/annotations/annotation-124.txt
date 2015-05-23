@@ -1,0 +1,20 @@
+
+440	3	ne	CARDINAL
+468	7	ne	PERSON
+524	12	ne	PER_DESC
+681	8	ne	FAC_DESC
+742	2	ne	PRODUCT
+891	3	ne	CARDINAL
+895	6	ne	PER_DESC
+986	8	ne	DATE
+1067	6	ne	DATE
+1076	3	ne	PERSON
+420	24	sentence
+446	91	sentence
+538	61	sentence
+600	30	sentence
+631	146	sentence
+779	169	sentence
+950	96	sentence
+1048	26	sentence
+1076	3	sentence

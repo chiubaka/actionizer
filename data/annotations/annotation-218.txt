@@ -1,0 +1,7 @@
+
+250	3	ne	PERSON
+350	2	ne	MONEY
+246	107	sentence
+354	90	sentence
+447	53	sentence
+503	13	sentence

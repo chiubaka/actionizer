@@ -1,0 +1,8 @@
+
+541	8	ne	DATE
+551	6	ne	MONEY
+579	13	ne	TIME
+647	6	ne	PERSON
+468	91	sentence
+561	84	sentence
+647	6	sentence

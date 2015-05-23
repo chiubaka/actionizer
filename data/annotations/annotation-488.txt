@@ -1,0 +1,21 @@
+
+287	8	ne	PER_DESC
+321	7	ne	DATE
+329	5	ne	TIME
+336	3	ne	PRODUCT
+340	15	ne	DATE
+357	1	ne	CARDINAL
+363	8	ne	TIME
+415	3	ne	CARDINAL
+430	1	ne	CONTACT_INFO
+461	6	ne	DATE
+510	1	ne	CARDINAL
+585	5	ne	DATE
+621	9	ne	DATE
+644	12	ne	PERSON
+259	154	sentence
+415	17	sentence
+433	76	sentence
+510	59	sentence
+570	61	sentence
+633	23	sentence

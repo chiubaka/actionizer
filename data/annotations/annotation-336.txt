@@ -1,0 +1,23 @@
+
+256	7	ne	PERSON
+300	11	ne	DATE
+520	6	ne	PER_DESC
+581	6	ne	DATE
+651	29	ne	DATE
+688	31	ne	DATE
+723	8	ne	DATE
+739	9	ne	DATE
+759	2	ne	ORGANIZATION
+775	6	ne	DATE
+828	7	ne	LOCATION
+876	2	ne	GPE
+879	4	ne	GPE_DESC
+886	3	ne	PERSON
+256	42	sentence
+300	37	sentence
+338	104	sentence
+444	62	sentence
+508	107	sentence
+616	134	sentence
+752	132	sentence
+886	3	sentence

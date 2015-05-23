@@ -1,0 +1,7 @@
+
+392	3	ne	PERSON
+452	6	ne	PERSON
+461	5	ne	PERSON
+392	27	sentence
+422	37	sentence
+461	5	sentence

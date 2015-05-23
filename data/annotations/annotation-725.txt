@@ -1,0 +1,8 @@
+
+249	8	ne	DATE
+278	12	ne	CONTACT_INFO
+364	4	ne	ORGANIZATION
+244	20	sentence
+265	26	sentence
+292	17	sentence
+361	7	sentence

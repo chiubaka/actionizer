@@ -1,0 +1,13 @@
+
+320	4	ne	ORGANIZATION
+337	3	ne	ORGANIZATION
+462	3	ne	ORGANIZATION
+469	1	ne	LAW
+512	1	ne	CARDINAL
+524	4	ne	PERSON
+258	83	sentence
+342	48	sentence
+391	30	sentence
+422	56	sentence
+479	41	sentence
+522	6	sentence

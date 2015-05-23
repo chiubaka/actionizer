@@ -1,0 +1,17 @@
+
+262	5	ne	ORDINAL
+329	7	ne	PER_DESC
+397	9	ne	DATE
+422	4	ne	DATE
+455	6	ne	ORG_DESC
+462	7	ne	DATE
+470	9	ne	TIME
+491	6	ne	DATE
+518	7	ne	ORGANIZATION
+534	7	ne	DATE
+545	8	ne	DATE
+609	4	ne	ORGANIZATION
+243	99	sentence
+343	52	sentence
+397	157	sentence
+606	7	sentence

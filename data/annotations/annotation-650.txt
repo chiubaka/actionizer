@@ -1,0 +1,3 @@
+
+340	5	ne	PERSON
+320	25	sentence

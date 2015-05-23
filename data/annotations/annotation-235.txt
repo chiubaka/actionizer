@@ -1,0 +1,27 @@
+
+258	3	ne	GPE
+271	3	ne	ORGANIZATION
+366	18	ne	ORGANIZATION
+389	3	ne	PERSON
+528	7	ne	DATE
+677	13	ne	FAC
+695	13	ne	ORGANIZATION
+716	9	ne	PER_DESC
+774	7	ne	FAC_DESC
+878	13	ne	DATE
+896	6	ne	ORGANIZATION
+998	14	ne	ORGANIZATION
+1023	4	ne	PERSON
+1137	6	ne	ORG_DESC
+1164	21	ne	WORK_OF_ART
+210	14	sentence
+230	70	sentence
+303	109	sentence
+414	134	sentence
+554	51	sentence
+607	20	sentence
+629	173	sentence
+804	37	sentence
+847	56	sentence
+906	238	sentence
+1146	39	sentence

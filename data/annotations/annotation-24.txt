@@ -1,0 +1,4 @@
+
+174	4	ne	PERSON
+204	6	ne	PER_DESC
+174	82	sentence

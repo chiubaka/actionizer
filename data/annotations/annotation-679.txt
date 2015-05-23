@@ -1,0 +1,11 @@
+
+207	5	ne	PERSON
+266	5	ne	DATE
+322	8	ne	DATE
+392	5	ne	PERSON
+402	5	ne	PERSON
+410	4	ne	ORGANIZATION
+207	85	sentence
+293	79	sentence
+373	35	sentence
+410	4	sentence

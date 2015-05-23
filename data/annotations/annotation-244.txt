@@ -1,0 +1,9 @@
+
+188	9	ne	PERSON
+380	7	ne	PERSON
+390	4	ne	PERSON
+188	69	sentence
+258	9	sentence
+268	32	sentence
+301	76	sentence
+380	14	sentence

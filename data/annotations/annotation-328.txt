@@ -1,0 +1,6 @@
+
+228	6	ne	PERSON
+379	7	ne	PERSON
+228	41	sentence
+270	107	sentence
+379	7	sentence

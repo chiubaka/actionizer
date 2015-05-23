@@ -1,0 +1,13 @@
+
+261	4	ne	ORGANIZATION
+282	15	ne	CONTACT_INFO
+303	15	ne	ORGANIZATION
+319	5	ne	FAC_DESC
+379	5	ne	ORG_DESC
+481	5	ne	FAC_DESC
+497	7	ne	PERSON
+233	69	sentence
+303	89	sentence
+393	42	sentence
+437	50	sentence
+489	15	sentence

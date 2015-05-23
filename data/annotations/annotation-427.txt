@@ -1,0 +1,9 @@
+
+206	11	ne	ORGANIZATION
+221	9	ne	ORGANIZATION
+264	7	ne	PERSON
+334	8	ne	PER_DESC
+206	55	sentence
+264	39	sentence
+304	110	sentence
+416	3	sentence

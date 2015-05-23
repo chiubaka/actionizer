@@ -1,0 +1,8 @@
+
+397	3	ne	PERSON
+403	3	ne	FAC_DESC
+408	3	ne	ORDINAL
+412	5	ne	FAC_DESC
+419	3	ne	PERSON
+382	36	sentence
+419	3	sentence

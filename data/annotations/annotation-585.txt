@@ -1,0 +1,12 @@
+
+384	3	ne	FAC_DESC
+422	5	ne	DATE
+442	4	ne	TIME
+452	8	ne	DATE
+469	12	ne	TIME
+486	9	ne	DATE
+501	12	ne	TIME
+516	9	ne	PERSON
+300	121	sentence
+422	92	sentence
+516	9	sentence

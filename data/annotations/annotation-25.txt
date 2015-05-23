@@ -1,0 +1,9 @@
+
+223	7	ne	ORGANIZATION
+255	5	ne	ORG_DESC
+269	12	ne	ORG_DESC
+374	11	ne	PERSON
+223	59	sentence
+284	19	sentence
+305	67	sentence
+374	11	sentence

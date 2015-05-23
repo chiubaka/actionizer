@@ -1,0 +1,4 @@
+
+223	6	ne	PERSON
+205	17	sentence
+223	6	sentence

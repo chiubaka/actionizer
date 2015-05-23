@@ -1,0 +1,10 @@
+
+314	6	ne	DATE
+412	14	ne	ORGANIZATION
+427	7	ne	ORG_DESC
+468	11	ne	TIME
+482	73	ne	PERSON
+306	3	sentence
+310	11	sentence
+322	158	sentence
+482	112	sentence

@@ -1,0 +1,11 @@
+
+233	3	ne	GPE
+280	8	ne	DATE
+289	7	ne	TIME
+315	11	ne	TIME
+338	3	ne	CARDINAL
+348	8	ne	FAC_DESC
+359	5	ne	PERSON
+229	68	sentence
+299	58	sentence
+359	5	sentence

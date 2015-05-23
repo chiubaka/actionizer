@@ -1,0 +1,17 @@
+
+191	6	ne	PERSON
+234	7	ne	ORG_DESC
+280	11	ne	DATE
+319	10	ne	PER_DESC
+480	7	ne	DATE
+617	6	ne	ORGANIZATION
+626	5	ne	ORG_DESC
+668	8	ne	DATE
+679	14	ne	PERSON
+191	171	sentence
+363	76	sentence
+440	48	sentence
+489	90	sentence
+581	68	sentence
+651	26	sentence
+679	14	sentence

@@ -1,0 +1,9 @@
+
+368	8	ne	GPE
+378	8	ne	ORG_DESC
+479	6	ne	PER_DESC
+229	28	sentence
+259	128	sentence
+389	56	sentence
+447	39	sentence
+488	5	sentence

@@ -1,0 +1,13 @@
+
+351	12	ne	DATE
+368	9	ne	DATE
+379	16	ne	DATE
+414	6	ne	PER_DESC
+435	11	ne	TIME
+450	8	ne	DATE
+466	7	ne	DATE
+475	9	ne	TIME
+488	9	ne	DATE
+334	67	sentence
+404	121	sentence
+527	3	sentence

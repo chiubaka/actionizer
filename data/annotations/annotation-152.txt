@@ -1,0 +1,8 @@
+
+250	1	ne	CARDINAL
+282	33	ne	WORK_OF_ART
+316	3	ne	CONTACT_INFO
+204	66	sentence
+272	47	sentence
+321	47	sentence
+370	3	sentence

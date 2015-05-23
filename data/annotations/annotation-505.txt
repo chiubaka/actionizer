@@ -1,0 +1,12 @@
+
+213	5	ne	PERSON
+226	3	ne	CARDINAL
+230	5	ne	FAC_DESC
+346	3	ne	CARDINAL
+350	4	ne	FAC_DESC
+372	3	ne	CARDINAL
+462	4	ne	ORGANIZATION
+213	142	sentence
+357	52	sentence
+410	39	sentence
+451	15	sentence

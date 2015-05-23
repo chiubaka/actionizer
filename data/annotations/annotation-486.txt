@@ -1,0 +1,8 @@
+
+212	5	ne	PERSON
+232	2	ne	CARDINAL
+244	9	ne	DATE
+334	4	ne	ORGANIZATION
+212	42	sentence
+256	76	sentence
+334	4	sentence

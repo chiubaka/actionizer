@@ -1,0 +1,12 @@
+
+203	3	ne	PERSON
+518	7	ne	ORG_DESC
+615	11	ne	DATE
+674	7	ne	ORG_DESC
+203	156	sentence
+361	24	sentence
+386	43	sentence
+431	102	sentence
+534	93	sentence
+628	84	sentence
+717	28	sentence

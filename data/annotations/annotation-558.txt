@@ -1,0 +1,10 @@
+
+277	14	ne	PERSON
+314	4	ne	PER_DESC
+355	5	ne	PERSON
+405	3	ne	ORGANIZATION
+410	3	ne	PERSON
+277	73	sentence
+351	52	sentence
+405	4	sentence
+410	3	sentence

@@ -1,0 +1,27 @@
+
+282	3	ne	PERSON
+625	3	ne	PERCENT
+636	5	ne	ORDINAL
+642	5	ne	CARDINAL
+649	3	ne	PERCENT
+656	15	ne	DATE
+673	3	ne	PERCENT
+706	6	ne	MONEY
+729	4	ne	MONEY
+782	7	ne	PER_DESC
+888	6	ne	PER_DESC
+1007	3	ne	CARDINAL
+1206	4	ne	ORGANIZATION
+278	22	sentence
+301	78	sentence
+380	95	sentence
+478	210	sentence
+691	69	sentence
+761	97	sentence
+861	54	sentence
+918	100	sentence
+1019	57	sentence
+1079	98	sentence
+1180	102	sentence
+1283	111	sentence
+1397	13	sentence

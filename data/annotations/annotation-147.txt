@@ -1,0 +1,25 @@
+
+197	3	ne	PERSON
+273	2	ne	WORK_OF_ART
+277	17	ne	PERSON
+296	11	ne	GPE
+309	13	ne	PERSON
+324	34	ne	WORK_OF_ART
+415	6	ne	PER_DESC
+436	7	ne	GPE
+444	9	ne	DATE
+521	13	ne	PERSON
+572	5	ne	ORG_DESC
+834	6	ne	DATE
+865	7	ne	ORG_DESC
+927	26	ne	DATE
+975	5	ne	FAC_DESC
+1017	7	ne	PER_DESC
+1073	7	ne	PERSON
+197	34	sentence
+232	178	sentence
+411	109	sentence
+521	352	sentence
+874	32	sentence
+907	164	sentence
+1073	7	sentence

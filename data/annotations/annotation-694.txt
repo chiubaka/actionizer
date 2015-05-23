@@ -1,0 +1,9 @@
+
+300	5	ne	PERSON
+334	5	ne	ORGANIZATION
+489	10	ne	ORGANIZATION
+528	11	ne	ORGANIZATION
+300	91	sentence
+393	65	sentence
+460	54	sentence
+516	23	sentence

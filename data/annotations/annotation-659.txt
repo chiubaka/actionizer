@@ -1,0 +1,9 @@
+
+280	5	ne	DATE
+327	8	ne	DATE
+359	4	ne	PERSON
+410	6	ne	PERSON
+257	39	sentence
+298	59	sentence
+359	49	sentence
+410	6	sentence

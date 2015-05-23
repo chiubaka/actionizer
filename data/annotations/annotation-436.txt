@@ -1,0 +1,21 @@
+
+324	29	ne	PERSON
+401	7	ne	PER_DESC
+461	5	ne	PER_DESC
+470	6	ne	DATE
+513	4	ne	ORGANIZATION
+525	7	ne	LOCATION
+536	13	ne	TIME
+559	6	ne	GPE
+566	7	ne	FAC_DESC
+611	12	ne	PERSON
+654	4	ne	DATE
+691	5	ne	FAC_DESC
+701	5	ne	SUBSTANCE
+719	3	ne	PERSON
+324	85	sentence
+411	18	sentence
+431	76	sentence
+509	65	sentence
+576	141	sentence
+719	3	sentence

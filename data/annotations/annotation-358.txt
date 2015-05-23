@@ -1,0 +1,6 @@
+
+401	7	ne	ORGANIZATION
+341	16	sentence
+358	7	sentence
+366	33	sentence
+401	7	sentence

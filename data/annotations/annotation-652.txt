@@ -1,0 +1,8 @@
+
+449	13	ne	DATE
+483	8	ne	DATE
+495	6	ne	DATE
+532	4	ne	PERSON
+408	55	sentence
+464	67	sentence
+532	4	sentence

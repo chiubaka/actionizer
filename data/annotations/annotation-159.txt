@@ -1,0 +1,18 @@
+
+268	3	ne	PERSON
+289	7	ne	ORG_DESC
+361	24	ne	DATE
+541	8	ne	FAC_DESC
+592	10	ne	DISEASE
+629	7	ne	ORG_DESC
+661	7	ne	ORG_DESC
+767	5	ne	GPE
+782	3	ne	PERSON
+268	43	sentence
+312	74	sentence
+387	66	sentence
+455	95	sentence
+551	118	sentence
+671	63	sentence
+735	45	sentence
+782	3	sentence

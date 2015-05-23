@@ -1,0 +1,14 @@
+
+227	3	ne	PERSON
+289	8	ne	DATE
+302	6	ne	DATE
+318	6	ne	DATE
+325	5	ne	TIME
+334	3	ne	PRODUCT
+339	7	ne	TIME
+411	7	ne	PERSON
+227	27	sentence
+255	83	sentence
+339	8	sentence
+349	52	sentence
+403	15	sentence

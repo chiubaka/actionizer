@@ -1,0 +1,11 @@
+
+288	5	ne	ORG_DESC
+338	11	ne	DATE
+540	4	ne	DATE
+549	5	ne	PERSON
+222	129	sentence
+353	101	sentence
+456	31	sentence
+489	43	sentence
+534	11	sentence
+549	5	sentence

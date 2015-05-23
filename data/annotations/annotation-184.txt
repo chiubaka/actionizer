@@ -1,0 +1,3 @@
+
+288	6	ne	PER_DESC
+234	95	sentence

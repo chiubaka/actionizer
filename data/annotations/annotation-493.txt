@@ -1,0 +1,11 @@
+
+363	3	ne	ORGANIZATION
+387	3	ne	ORGANIZATION
+406	5	ne	DATE
+478	4	ne	TIME
+533	4	ne	DATE
+340	20	sentence
+363	49	sentence
+415	44	sentence
+462	76	sentence
+540	3	sentence

@@ -1,0 +1,7 @@
+
+231	8	ne	PERSON
+276	14	ne	TIME
+294	6	ne	TIME
+231	70	sentence
+302	34	sentence
+338	16	sentence

@@ -1,0 +1,6 @@
+
+248	5	ne	PERSON
+299	18	ne	DATE
+339	3	ne	ORGANIZATION
+244	93	sentence
+339	3	sentence

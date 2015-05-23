@@ -1,0 +1,10 @@
+
+247	4	ne	ORGANIZATION
+252	5	ne	PER_DESC
+258	3	ne	PERSON
+476	7	ne	PERSON
+485	33	ne	ORGANIZATION
+247	62	sentence
+310	83	sentence
+395	79	sentence
+476	56	sentence

@@ -1,0 +1,15 @@
+
+261	3	ne	PERSON
+473	8	ne	PERSON
+490	9	ne	DATE
+515	6	ne	DATE
+556	9	ne	DATE
+582	6	ne	PER_DESC
+589	6	ne	PERSON
+261	39	sentence
+301	44	sentence
+348	123	sentence
+473	55	sentence
+529	37	sentence
+568	13	sentence
+582	13	sentence

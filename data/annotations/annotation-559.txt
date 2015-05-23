@@ -1,0 +1,12 @@
+
+238	5	ne	PERSON
+276	3	ne	ORGANIZATION
+285	6	ne	ORG_DESC
+412	3	ne	CARDINAL
+519	6	ne	DATE
+528	3	ne	PERSON
+238	124	sentence
+363	61	sentence
+426	45	sentence
+473	53	sentence
+528	3	sentence

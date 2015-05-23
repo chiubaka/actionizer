@@ -1,0 +1,25 @@
+
+418	15	ne	PERSON
+798	3	ne	ORGANIZATION
+821	8	ne	FAC_DESC
+830	11	ne	PER_DESC
+843	14	ne	PERSON
+881	8	ne	DATE
+891	13	ne	DATE
+982	17	ne	DATE
+1003	1	ne	CONTACT_INFO
+1009	3	ne	CARDINAL
+1061	1	ne	CONTACT_INFO
+1067	3	ne	CARDINAL
+1091	3	ne	CARDINAL
+1095	5	ne	CARDINAL
+418	46	sentence
+466	83	sentence
+551	48	sentence
+601	42	sentence
+645	157	sentence
+804	101	sentence
+909	97	sentence
+1007	57	sentence
+1065	148	sentence
+1215	10	sentence

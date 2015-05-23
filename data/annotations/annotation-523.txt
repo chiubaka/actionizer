@@ -1,0 +1,7 @@
+
+242	10	ne	PERSON
+363	5	ne	PERSON
+226	14	sentence
+242	59	sentence
+303	58	sentence
+363	5	sentence

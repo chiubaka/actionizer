@@ -1,0 +1,8 @@
+
+277	9	ne	DATE
+371	3	ne	PERSON
+220	19	sentence
+241	46	sentence
+289	30	sentence
+321	37	sentence
+360	14	sentence

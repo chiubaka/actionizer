@@ -1,0 +1,19 @@
+
+206	6	ne	PERSON
+333	5	ne	ORG_DESC
+530	17	ne	PERSON
+578	5	ne	CARDINAL
+629	6	ne	DATE
+756	11	ne	ORGANIZATION
+783	7	ne	NATIONALITY
+792	8	ne	PER_DESC
+833	5	ne	PRODUCT_DESC
+850	7	ne	ORGANIZATION
+206	71	sentence
+278	50	sentence
+329	59	sentence
+389	103	sentence
+494	90	sentence
+585	217	sentence
+804	44	sentence
+850	7	sentence

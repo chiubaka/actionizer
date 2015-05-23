@@ -1,0 +1,7 @@
+
+353	6	ne	ORGANIZATION
+368	5	ne	WORK_OF_ART
+394	13	ne	PERSON
+252	78	sentence
+332	60	sentence
+394	14	sentence

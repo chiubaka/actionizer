@@ -1,0 +1,9 @@
+
+201	5	ne	PERSON
+218	6	ne	DATE
+256	7	ne	PRODUCT_DESC
+290	9	ne	DATE
+201	63	sentence
+266	34	sentence
+304	100	sentence
+406	3	sentence

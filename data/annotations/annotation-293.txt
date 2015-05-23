@@ -1,0 +1,3 @@
+
+199	6	ne	PERSON
+199	21	sentence

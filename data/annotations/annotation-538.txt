@@ -1,0 +1,17 @@
+
+309	7	ne	ORGANIZATION
+369	3	ne	CARDINAL
+377	5	ne	LOCATION
+389	3	ne	CARDINAL
+411	6	ne	PER_DESC
+439	5	ne	LOCATION
+489	8	ne	FAC
+549	5	ne	ORG_DESC
+595	6	ne	PER_DESC
+606	4	ne	PERSON
+309	47	sentence
+357	61	sentence
+419	34	sentence
+454	52	sentence
+508	94	sentence
+604	6	sentence

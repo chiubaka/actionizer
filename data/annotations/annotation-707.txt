@@ -1,0 +1,8 @@
+
+188	7	ne	DATE
+196	9	ne	TIME
+234	7	ne	TIME
+243	4	ne	PERSON
+178	28	sentence
+207	35	sentence
+243	4	sentence

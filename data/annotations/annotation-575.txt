@@ -1,0 +1,13 @@
+
+263	6	ne	ORG_DESC
+275	6	ne	DATE
+283	12	ne	DATE
+304	7	ne	DATE
+313	12	ne	DATE
+393	9	ne	DATE
+404	12	ne	DATE
+460	5	ne	PERSON
+242	84	sentence
+328	121	sentence
+451	7	sentence
+460	5	sentence

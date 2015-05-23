@@ -1,0 +1,9 @@
+
+228	20	ne	PERSON
+249	1	ne	CARDINAL
+317	6	ne	ORG_DESC
+326	2	ne	ORGANIZATION
+228	70	sentence
+299	25	sentence
+326	3	sentence
+330	4	sentence

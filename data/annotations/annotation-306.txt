@@ -1,0 +1,34 @@
+
+257	3	ne	PERSON
+273	3	ne	CARDINAL
+322	5	ne	ORG_DESC
+401	5	ne	ORG_DESC
+574	5	ne	ORG_DESC
+717	11	ne	PER_DESC
+924	8	ne	PER_DESC
+1044	5	ne	ORG_DESC
+1077	8	ne	ORG_DESC
+1246	5	ne	PER_DESC
+1590	4	ne	ORGANIZATION
+2014	6	ne	ORG_DESC
+2194	7	ne	PER_DESC
+2446	7	ne	PERSON
+2456	4	ne	ORGANIZATION
+2485	3	ne	ORGANIZATION
+257	236	sentence
+495	42	sentence
+539	171	sentence
+712	90	sentence
+803	54	sentence
+858	85	sentence
+944	155	sentence
+1100	178	sentence
+1279	225	sentence
+1505	184	sentence
+1690	109	sentence
+1800	177	sentence
+1978	130	sentence
+2110	101	sentence
+2212	106	sentence
+2319	124	sentence
+2446	151	sentence

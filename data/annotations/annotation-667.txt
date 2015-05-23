@@ -1,0 +1,8 @@
+
+357	18	ne	TIME
+380	1	ne	CARDINAL
+390	4	ne	PERSON
+397	3	ne	ORGANIZATION
+421	6	ne	PERSON
+348	71	sentence
+421	6	sentence

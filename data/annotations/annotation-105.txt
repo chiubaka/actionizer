@@ -1,0 +1,13 @@
+
+293	1	ne	CONTACT_INFO
+432	1	ne	CONTACT_INFO
+513	1	ne	CONTACT_INFO
+1074	6	ne	PER_DESC
+1211	3	ne	PERSON
+220	326	sentence
+547	127	sentence
+676	238	sentence
+916	228	sentence
+1146	27	sentence
+1175	34	sentence
+1211	3	sentence

@@ -1,0 +1,8 @@
+
+318	3	ne	PERSON
+428	8	ne	DATE
+556	8	ne	ORGANIZATION
+318	56	sentence
+375	85	sentence
+461	119	sentence
+581	115	sentence

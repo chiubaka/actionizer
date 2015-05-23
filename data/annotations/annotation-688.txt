@@ -1,0 +1,11 @@
+
+240	11	ne	PERSON
+273	4	ne	PERSON
+294	4	ne	TIME
+302	8	ne	DATE
+350	4	ne	FAC_DESC
+359	4	ne	DATE
+386	6	ne	TIME
+240	71	sentence
+312	81	sentence
+394	8	sentence

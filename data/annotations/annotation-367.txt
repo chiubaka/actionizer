@@ -1,0 +1,9 @@
+
+236	10	ne	PERSON
+444	7	ne	TIME
+506	12	ne	PERSON
+236	108	sentence
+345	71	sentence
+417	34	sentence
+452	52	sentence
+506	12	sentence

@@ -1,0 +1,22 @@
+
+263	3	ne	PERSON
+297	7	ne	ORG_DESC
+345	5	ne	ORGANIZATION
+362	5	ne	PRODUCT_DESC
+406	4	ne	FAC_DESC
+483	9	ne	GPE
+496	4	ne	CARDINAL
+515	16	ne	DATE
+604	7	ne	GPE
+624	5	ne	GPE
+643	14	ne	PER_DESC
+661	5	ne	GPE
+700	3	ne	PERSON
+263	51	sentence
+315	36	sentence
+352	63	sentence
+417	42	sentence
+461	92	sentence
+554	76	sentence
+632	66	sentence
+700	3	sentence

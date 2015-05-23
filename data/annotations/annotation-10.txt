@@ -1,0 +1,16 @@
+
+255	9	ne	PERSON
+267	9	ne	ORGANIZATION
+404	32	ne	ORGANIZATION
+491	10	ne	GPE
+507	12	ne	PERSON
+526	6	ne	ORG_DESC
+577	7	ne	PERSON
+600	8	ne	DATE
+650	7	ne	PER_DESC
+658	7	ne	PERSON
+255	182	sentence
+441	200	sentence
+643	83	sentence
+731	36	sentence
+769	15	sentence

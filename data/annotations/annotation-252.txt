@@ -1,0 +1,16 @@
+
+225	10	ne	GPE
+287	6	ne	PER_DESC
+300	5	ne	FAC_DESC
+309	4	ne	PERSON
+316	14	ne	QUANTITY
+340	5	ne	PERSON
+355	7	ne	PER_DESC
+366	7	ne	GPE
+383	5	ne	PER_DESC
+472	4	ne	GPE
+479	7	ne	PERSON
+213	69	sentence
+284	131	sentence
+419	58	sentence
+479	7	sentence

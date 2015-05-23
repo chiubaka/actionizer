@@ -1,0 +1,11 @@
+
+222	6	ne	PERSON
+230	6	ne	ORGANIZATION
+374	10	ne	ORGANIZATION
+488	5	ne	PERSON
+222	35	sentence
+259	29	sentence
+290	55	sentence
+346	77	sentence
+424	58	sentence
+483	10	sentence

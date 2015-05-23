@@ -1,0 +1,17 @@
+
+234	2	ne	ORGANIZATION
+249	9	ne	PERSON
+278	4	ne	ORGANIZATION
+283	7	ne	PER_DESC
+379	6	ne	DATE
+386	6	ne	EVENT
+393	19	ne	DATE
+437	4	ne	PER_DESC
+546	17	ne	PERSON
+234	3	sentence
+238	53	sentence
+292	121	sentence
+414	68	sentence
+485	49	sentence
+535	7	sentence
+546	17	sentence

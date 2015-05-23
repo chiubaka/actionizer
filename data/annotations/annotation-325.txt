@@ -1,0 +1,7 @@
+
+225	3	ne	PERSON
+338	7	ne	PER_DESC
+348	7	ne	PERSON
+225	28	sentence
+254	92	sentence
+348	7	sentence

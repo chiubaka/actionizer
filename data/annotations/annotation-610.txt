@@ -1,0 +1,5 @@
+
+242	4	ne	PERSON
+345	6	ne	ORG_DESC
+242	84	sentence
+327	60	sentence

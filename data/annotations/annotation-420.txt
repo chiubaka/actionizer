@@ -1,0 +1,7 @@
+
+281	9	ne	NATIONALITY
+389	7	ne	ORG_DESC
+399	3	ne	PERSON
+281	64	sentence
+347	50	sentence
+399	3	sentence

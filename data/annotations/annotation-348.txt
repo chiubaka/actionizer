@@ -1,0 +1,5 @@
+
+269	5	ne	PERSON
+252	77	sentence
+332	68	sentence
+402	3	sentence

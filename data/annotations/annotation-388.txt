@@ -1,0 +1,11 @@
+
+205	15	ne	ORGANIZATION
+226	31	ne	ANIMAL
+259	67	ne	WORK_OF_ART
+350	48	ne	WORK_OF_ART
+400	66	ne	WORK_OF_ART
+196	62	sentence
+259	68	sentence
+328	13	sentence
+342	57	sentence
+400	66	sentence

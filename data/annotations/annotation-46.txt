@@ -1,0 +1,8 @@
+
+279	9	ne	CARDINAL
+289	8	ne	DATE
+350	11	ne	GPE
+365	6	ne	DATE
+382	4	ne	PERSON
+264	108	sentence
+382	4	sentence

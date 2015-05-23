@@ -1,0 +1,39 @@
+
+215	3	ne	PERSON
+310	6	ne	ORG_DESC
+332	8	ne	SUBSTANCE
+427	8	ne	NATIONALITY
+472	3	ne	CARDINAL
+486	6	ne	PERSON
+621	16	ne	TIME
+673	8	ne	DATE
+836	7	ne	PRODUCT_DESC
+851	4	ne	ORGANIZATION
+890	14	ne	MONEY
+913	3	ne	CARDINAL
+1072	5	ne	PERSON
+1084	8	ne	GPE
+1504	8	ne	PER_DESC
+1545	9	ne	NATIONALITY
+1580	2	ne	GPE
+1628	10	ne	ORG_DESC
+1672	22	ne	ORGANIZATION
+1781	7	ne	DATE
+1826	7	ne	PERSON
+215	72	sentence
+288	29	sentence
+318	50	sentence
+369	107	sentence
+477	123	sentence
+601	107	sentence
+710	100	sentence
+811	176	sentence
+988	82	sentence
+1072	156	sentence
+1229	87	sentence
+1317	196	sentence
+1514	80	sentence
+1596	43	sentence
+1640	97	sentence
+1738	85	sentence
+1826	7	sentence

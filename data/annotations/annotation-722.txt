@@ -1,0 +1,9 @@
+
+202	6	ne	DATE
+229	4	ne	ORGANIZATION
+237	3	ne	CARDINAL
+241	6	ne	DATE
+249	4	ne	PERSON
+167	42	sentence
+210	38	sentence
+249	4	sentence

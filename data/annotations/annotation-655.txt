@@ -1,0 +1,3 @@
+
+226	3	ne	ANIMAL
+209	38	sentence

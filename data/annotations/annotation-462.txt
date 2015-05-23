@@ -1,0 +1,12 @@
+
+235	9	ne	PERSON
+256	9	ne	PER_DESC
+285	19	ne	WORK_OF_ART
+378	3	ne	MONEY
+386	6	ne	PER_DESC
+442	12	ne	PER_DESC
+456	7	ne	PERSON
+235	70	sentence
+307	47	sentence
+356	99	sentence
+456	7	sentence

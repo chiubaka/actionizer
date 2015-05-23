@@ -1,0 +1,29 @@
+
+406	4	ne	ORGANIZATION
+418	7	ne	LOCATION
+567	12	ne	PERSON
+592	7	ne	PER_DESC
+628	4	ne	FAC_DESC
+662	6	ne	DATE
+669	9	ne	TIME
+682	7	ne	TIME
+704	5	ne	FAC_DESC
+719	5	ne	ORGANIZATION
+726	5	ne	TIME
+738	5	ne	SUBSTANCE
+765	8	ne	DATE
+798	6	ne	DATE
+807	6	ne	PER_DESC
+814	6	ne	PERSON
+935	14	ne	PERSON
+332	24	sentence
+358	68	sentence
+427	133	sentence
+562	44	sentence
+608	25	sentence
+635	90	sentence
+726	6	sentence
+734	71	sentence
+807	91	sentence
+899	34	sentence
+935	14	sentence

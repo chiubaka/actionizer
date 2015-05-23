@@ -1,0 +1,13 @@
+
+243	9	ne	PERSON
+284	4	ne	ORGANIZATION
+315	8	ne	DATE
+373	4	ne	FAC_DESC
+458	8	ne	DATE
+504	4	ne	FAC_DESC
+243	63	sentence
+307	38	sentence
+346	48	sentence
+395	40	sentence
+436	80	sentence
+517	8	sentence

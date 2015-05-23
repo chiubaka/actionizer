@@ -1,0 +1,23 @@
+
+229	6	ne	PERSON
+290	8	ne	DATE
+383	2	ne	ORGANIZATION
+386	8	ne	PER_DESC
+553	6	ne	DATE
+592	7	ne	DATE
+670	6	ne	DATE
+773	1	ne	CARDINAL
+784	8	ne	SUBSTANCE
+794	3	ne	ORGANIZATION
+804	6	ne	WORK_OF_ART
+838	8	ne	DATE
+849	7	ne	PERSON
+229	70	sentence
+300	60	sentence
+361	8	sentence
+370	132	sentence
+503	97	sentence
+602	118	sentence
+722	90	sentence
+814	33	sentence
+849	7	sentence

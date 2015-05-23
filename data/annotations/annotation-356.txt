@@ -1,0 +1,8 @@
+
+305	8	ne	PERSON
+317	5	ne	ORGANIZATION
+370	6	ne	DATE
+377	9	ne	TIME
+305	101	sentence
+407	148	sentence
+556	8	sentence

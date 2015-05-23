@@ -1,0 +1,12 @@
+
+294	8	ne	PERSON
+331	13	ne	PERSON
+397	25	ne	DATE
+520	7	ne	NATIONALITY
+685	4	ne	PERCENT
+698	7	ne	LANGUAGE
+796	7	ne	ORGANIZATION
+294	297	sentence
+592	114	sentence
+707	66	sentence
+776	27	sentence

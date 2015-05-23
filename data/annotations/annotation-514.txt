@@ -1,0 +1,11 @@
+
+233	5	ne	PERSON
+274	2	ne	GPE
+280	9	ne	TIME
+319	6	ne	TIME
+343	12	ne	TIME
+437	5	ne	PERSON
+233	124	sentence
+360	68	sentence
+429	7	sentence
+437	5	sentence

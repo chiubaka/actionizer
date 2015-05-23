@@ -1,0 +1,9 @@
+
+371	3	ne	PERSON
+423	9	ne	DATE
+435	12	ne	PERSON
+230	102	sentence
+333	11	sentence
+345	25	sentence
+371	62	sentence
+435	18	sentence

@@ -1,0 +1,9 @@
+
+226	9	ne	PERSON
+332	18	ne	FAC
+354	6	ne	GPE
+398	16	ne	DATE
+493	14	ne	PERSON
+226	189	sentence
+417	66	sentence
+485	22	sentence

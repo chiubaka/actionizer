@@ -1,0 +1,18 @@
+
+310	8	ne	PER_DESC
+377	2	ne	ORGANIZATION
+531	9	ne	ORG_DESC
+684	13	ne	PERSON
+855	10	ne	GPE
+958	8	ne	DISEASE
+1028	8	ne	PERSON
+1205	12	ne	PERSON
+251	32	sentence
+284	67	sentence
+352	23	sentence
+377	253	sentence
+632	201	sentence
+834	158	sentence
+994	172	sentence
+1167	36	sentence
+1205	51	sentence

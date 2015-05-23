@@ -1,0 +1,10 @@
+
+433	6	ne	PER_DESC
+451	5	ne	FAC_DESC
+457	14	ne	TIME
+483	23	ne	DATE
+512	7	ne	DATE
+526	1	ne	CARDINAL
+530	5	ne	PERSON
+355	117	sentence
+474	61	sentence

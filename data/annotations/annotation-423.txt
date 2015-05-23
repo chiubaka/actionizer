@@ -1,0 +1,7 @@
+
+203	6	ne	PERSON
+324	13	ne	PERSON
+203	90	sentence
+295	27	sentence
+324	14	sentence
+342	30	sentence

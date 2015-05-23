@@ -1,0 +1,11 @@
+
+308	6	ne	PERSON
+356	3	ne	ORGANIZATION
+372	5	ne	PERSON
+383	5	ne	PERSON
+405	6	ne	PER_DESC
+424	5	ne	ORGANIZATION
+308	46	sentence
+356	33	sentence
+390	26	sentence
+418	11	sentence

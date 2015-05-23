@@ -1,0 +1,6 @@
+
+249	2	ne	ORGANIZATION
+327	17	ne	PERSON
+245	29	sentence
+275	50	sentence
+327	17	sentence

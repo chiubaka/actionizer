@@ -1,0 +1,14 @@
+
+235	3	ne	PERSON
+332	11	ne	DATE
+344	5	ne	FAC_DESC
+376	6	ne	FAC_DESC
+389	5	ne	PER_DESC
+509	6	ne	PER_DESC
+574	13	ne	DISEASE
+588	8	ne	PER_DESC
+659	5	ne	PERSON
+235	170	sentence
+407	109	sentence
+518	139	sentence
+659	5	sentence

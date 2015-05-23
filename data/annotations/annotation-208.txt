@@ -1,0 +1,5 @@
+
+235	13	ne	WORK_OF_ART
+231	59	sentence
+291	155	sentence
+449	13	sentence

@@ -1,0 +1,4 @@
+
+395	8	ne	DATE
+419	8	ne	DATE
+386	42	sentence

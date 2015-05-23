@@ -1,0 +1,9 @@
+
+292	4	ne	ORGANIZATION
+342	4	ne	PERSON
+351	5	ne	PERSON
+358	4	ne	PERSON
+235	38	sentence
+275	22	sentence
+298	59	sentence
+358	4	sentence

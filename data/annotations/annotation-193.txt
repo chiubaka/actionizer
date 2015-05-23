@@ -1,0 +1,15 @@
+
+237	7	ne	PERSON
+276	6	ne	DATE
+286	17	ne	DATE
+333	3	ne	PERSON
+380	6	ne	PER_DESC
+531	8	ne	CARDINAL
+573	5	ne	MONEY
+704	6	ne	SUBSTANCE
+754	4	ne	PERSON
+237	95	sentence
+333	194	sentence
+528	183	sentence
+712	41	sentence
+754	4	sentence

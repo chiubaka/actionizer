@@ -1,0 +1,9 @@
+
+269	7	ne	PERSON
+300	18	ne	WORK_OF_ART
+356	10	ne	PER_DESC
+443	9	ne	PER_DESC
+455	3	ne	PERSON
+269	27	sentence
+298	155	sentence
+455	3	sentence

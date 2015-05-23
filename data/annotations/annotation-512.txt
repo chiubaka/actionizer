@@ -1,0 +1,4 @@
+
+269	5	ne	PERSON
+230	37	sentence
+269	5	sentence

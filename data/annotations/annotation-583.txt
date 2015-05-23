@@ -1,0 +1,8 @@
+
+273	14	ne	ANIMAL
+291	10	ne	ORDINAL
+381	13	ne	PERSON
+431	7	ne	DATE
+442	9	ne	PERSON
+224	192	sentence
+417	34	sentence

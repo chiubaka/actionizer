@@ -1,0 +1,15 @@
+
+271	3	ne	PERSON
+301	8	ne	PERSON
+365	19	ne	DATE
+388	6	ne	DATE
+414	7	ne	GPE
+426	6	ne	DATE
+433	5	ne	TIME
+485	8	ne	DATE
+494	7	ne	TIME
+271	124	sentence
+397	105	sentence
+505	64	sentence
+570	28	sentence
+599	6	sentence

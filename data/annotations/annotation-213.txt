@@ -1,0 +1,9 @@
+
+374	3	ne	CARDINAL
+602	7	ne	PERSON
+279	35	sentence
+315	87	sentence
+403	97	sentence
+502	62	sentence
+565	35	sentence
+602	7	sentence

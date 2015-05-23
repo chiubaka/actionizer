@@ -1,0 +1,11 @@
+
+257	5	ne	PERSON
+290	8	ne	DATE
+305	4	ne	PRODUCT_DESC
+351	9	ne	PER_DESC
+378	8	ne	DATE
+422	14	ne	PERSON
+257	42	sentence
+301	86	sentence
+389	31	sentence
+422	14	sentence

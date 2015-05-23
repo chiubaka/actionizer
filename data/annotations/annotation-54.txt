@@ -1,0 +1,18 @@
+
+347	16	ne	DATE
+365	8	ne	DATE
+378	6	ne	DATE
+494	6	ne	DATE
+502	7	ne	DATE
+527	15	ne	DATE
+562	17	ne	ORGANIZATION
+615	12	ne	CONTACT_INFO
+642	3	ne	CONTACT_INFO
+746	16	ne	PERSON
+313	101	sentence
+416	27	sentence
+444	100	sentence
+546	100	sentence
+648	87	sentence
+737	7	sentence
+746	16	sentence

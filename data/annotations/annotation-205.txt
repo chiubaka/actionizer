@@ -1,0 +1,8 @@
+
+272	28	ne	LAW
+212	106	sentence
+321	29	sentence
+352	78	sentence
+433	74	sentence
+509	23	sentence
+534	3	sentence

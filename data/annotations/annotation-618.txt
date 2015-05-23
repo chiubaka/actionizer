@@ -1,0 +1,10 @@
+
+240	9	ne	DATE
+320	4	ne	DATE
+335	5	ne	MONEY
+356	7	ne	PERSON
+237	33	sentence
+272	53	sentence
+326	14	sentence
+341	5	sentence
+348	15	sentence

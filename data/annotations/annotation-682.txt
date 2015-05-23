@@ -1,0 +1,11 @@
+
+320	5	ne	PERSON
+431	9	ne	MONEY
+520	5	ne	ORGANIZATION
+538	17	ne	DATE
+628	11	ne	ORGANIZATION
+320	53	sentence
+374	13	sentence
+389	98	sentence
+489	125	sentence
+616	23	sentence

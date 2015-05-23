@@ -1,0 +1,6 @@
+
+328	6	ne	PER_DESC
+342	4	ne	PRODUCT
+216	35	sentence
+253	126	sentence
+381	89	sentence

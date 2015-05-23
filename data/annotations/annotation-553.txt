@@ -1,0 +1,9 @@
+
+197	8	ne	PERSON
+219	8	ne	DATE
+231	3	ne	DATE
+254	6	ne	ORG_DESC
+263	4	ne	ORGANIZATION
+197	38	sentence
+236	25	sentence
+263	4	sentence

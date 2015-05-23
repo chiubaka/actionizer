@@ -1,0 +1,15 @@
+
+215	8	ne	PERSON
+234	6	ne	ORGANIZATION
+274	10	ne	TIME
+373	6	ne	LOCATION
+391	11	ne	TIME
+523	14	ne	TIME
+686	8	ne	DATE
+697	14	ne	PERSON
+215	70	sentence
+287	116	sentence
+405	187	sentence
+594	26	sentence
+622	73	sentence
+697	14	sentence

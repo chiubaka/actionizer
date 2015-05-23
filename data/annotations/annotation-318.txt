@@ -1,0 +1,37 @@
+
+223	6	ne	PERSON
+300	6	ne	ORDINAL
+328	6	ne	GPE
+363	5	ne	ORDINAL
+408	7	ne	DATE
+476	3	ne	PERSON
+483	7	ne	DATE
+571	6	ne	PER_DESC
+711	3	ne	PERSON
+758	3	ne	ORGANIZATION
+775	3	ne	CARDINAL
+891	3	ne	GPE
+1085	2	ne	ORGANIZATION
+1096	5	ne	GPE_DESC
+1280	1	ne	CARDINAL
+1291	11	ne	ORGANIZATION
+1311	8	ne	DATE
+1397	7	ne	PERSON
+1407	7	ne	PERSON
+223	36	sentence
+260	21	sentence
+283	109	sentence
+393	63	sentence
+459	5	sentence
+465	35	sentence
+501	128	sentence
+631	131	sentence
+763	38	sentence
+804	10	sentence
+815	135	sentence
+952	58	sentence
+1011	162	sentence
+1174	62	sentence
+1238	82	sentence
+1321	74	sentence
+1397	17	sentence

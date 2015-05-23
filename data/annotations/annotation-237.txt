@@ -1,0 +1,13 @@
+
+244	11	ne	PERSON
+262	7	ne	PERSON
+343	7	ne	ORG_DESC
+418	16	ne	PERSON
+464	2	ne	ORGANIZATION
+472	2	ne	ORGANIZATION
+506	7	ne	ORGANIZATION
+244	148	sentence
+393	70	sentence
+464	7	sentence
+472	7	sentence
+482	31	sentence

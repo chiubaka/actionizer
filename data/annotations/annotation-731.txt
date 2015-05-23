@@ -1,0 +1,9 @@
+
+259	1	ne	CONTACT_INFO
+282	12	ne	DATE
+338	6	ne	DATE
+392	2	ne	PRODUCT
+206	18	sentence
+226	119	sentence
+347	44	sentence
+392	2	sentence

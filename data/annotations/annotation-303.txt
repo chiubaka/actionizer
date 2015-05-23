@@ -1,0 +1,19 @@
+
+221	3	ne	PERSON
+227	13	ne	PERSON
+310	10	ne	PER_DESC
+326	23	ne	DATE
+382	6	ne	ORDINAL
+427	8	ne	CARDINAL
+439	7	ne	DATE
+652	10	ne	ORGANIZATION
+796	7	ne	PERSON
+221	73	sentence
+296	54	sentence
+351	53	sentence
+405	42	sentence
+448	122	sentence
+571	120	sentence
+692	30	sentence
+723	71	sentence
+796	7	sentence

@@ -1,0 +1,7 @@
+
+434	3	ne	ORGANIZATION
+554	16	ne	PERSON
+270	70	sentence
+341	97	sentence
+441	111	sentence
+554	16	sentence

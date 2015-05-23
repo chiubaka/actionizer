@@ -1,0 +1,5 @@
+
+272	4	ne	ORGANIZATION
+286	7	ne	PERSON
+231	46	sentence
+279	14	sentence

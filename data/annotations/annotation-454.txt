@@ -1,0 +1,35 @@
+
+225	3	ne	PERSON
+327	9	ne	PRODUCT
+414	13	ne	PERSON
+507	5	ne	ORG_DESC
+595	8	ne	PERSON
+611	12	ne	PERSON
+790	2	ne	ORGANIZATION
+872	2	ne	ORGANIZATION
+899	9	ne	DATE
+926	10	ne	PER_DESC
+1024	1	ne	CARDINAL
+1167	5	ne	ORDINAL
+1195	6	ne	PER_DESC
+1403	6	ne	PER_DESC
+1523	6	ne	DATE
+1561	1	ne	CARDINAL
+1566	1	ne	CARDINAL
+1573	6	ne	PER_DESC
+1634	7	ne	PERSON
+225	53	sentence
+279	8	sentence
+288	53	sentence
+342	63	sentence
+406	122	sentence
+529	33	sentence
+563	162	sentence
+726	94	sentence
+821	180	sentence
+1002	29	sentence
+1033	90	sentence
+1124	237	sentence
+1363	156	sentence
+1520	112	sentence
+1634	7	sentence

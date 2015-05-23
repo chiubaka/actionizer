@@ -1,0 +1,7 @@
+
+259	5	ne	DATE
+435	14	ne	ORGANIZATION
+228	37	sentence
+267	51	sentence
+320	105	sentence
+427	22	sentence

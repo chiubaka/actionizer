@@ -1,0 +1,4 @@
+
+278	3	ne	PERSON
+250	27	sentence
+278	3	sentence

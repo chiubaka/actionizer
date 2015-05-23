@@ -1,0 +1,30 @@
+
+246	13	ne	WORK_OF_ART
+327	9	ne	TIME
+354	8	ne	PER_DESC
+369	10	ne	TIME
+445	9	ne	TIME
+534	11	ne	PER_DESC
+550	10	ne	PER_DESC
+608	5	ne	DATE
+798	7	ne	ORG_DESC
+875	7	ne	ORG_DESC
+903	9	ne	TIME
+1076	12	ne	DATE
+1131	8	ne	SUBSTANCE
+1200	8	ne	DATE
+1209	5	ne	TIME
+1238	6	ne	GPE
+1249	7	ne	TIME
+1294	5	ne	ORG_DESC
+1315	12	ne	TIME
+1414	7	ne	ORGANIZATION
+246	253	sentence
+502	248	sentence
+754	132	sentence
+888	118	sentence
+1007	82	sentence
+1090	85	sentence
+1177	186	sentence
+1365	47	sentence
+1414	7	sentence

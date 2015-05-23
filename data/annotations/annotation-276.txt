@@ -1,0 +1,8 @@
+
+223	11	ne	PERSON
+449	18	ne	DATE
+223	41	sentence
+266	29	sentence
+296	233	sentence
+531	21	sentence
+554	6	sentence

@@ -1,0 +1,4 @@
+
+285	18	ne	DATE
+331	4	ne	MONEY
+269	68	sentence

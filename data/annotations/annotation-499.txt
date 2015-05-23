@@ -1,0 +1,10 @@
+
+363	3	ne	PERSON
+371	4	ne	CARDINAL
+376	6	ne	CARDINAL
+409	9	ne	DATE
+467	4	ne	DATE
+363	56	sentence
+421	51	sentence
+474	39	sentence
+515	3	sentence

@@ -1,0 +1,5 @@
+
+288	5	ne	PERSON
+231	16	sentence
+249	37	sentence
+288	5	sentence

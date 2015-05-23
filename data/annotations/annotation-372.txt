@@ -1,0 +1,11 @@
+
+390	18	ne	DATE
+422	5	ne	ORG_DESC
+497	3	ne	PERSON
+230	71	sentence
+302	126	sentence
+429	18	sentence
+448	47	sentence
+497	50	sentence
+549	7	sentence
+558	5	sentence

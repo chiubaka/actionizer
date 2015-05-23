@@ -1,0 +1,10 @@
+
+227	19	ne	PERSON
+422	3	ne	CARDINAL
+456	6	ne	GPE
+466	4	ne	DATE
+555	9	ne	PER_DESC
+227	80	sentence
+308	163	sentence
+472	93	sentence
+567	8	sentence

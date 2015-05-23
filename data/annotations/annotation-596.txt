@@ -1,0 +1,4 @@
+
+297	4	ne	PERSON
+270	26	sentence
+297	4	sentence

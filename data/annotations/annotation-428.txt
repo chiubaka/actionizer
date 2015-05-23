@@ -1,0 +1,37 @@
+
+241	6	ne	PERSON
+459	4	ne	GPE
+464	12	ne	PER_DESC
+505	12	ne	NATIONALITY
+544	9	ne	PERSON
+562	6	ne	LOCATION
+608	2	ne	ORGANIZATION
+631	4	ne	GPE
+695	8	ne	NATIONALITY
+704	11	ne	PER_DESC
+736	10	ne	PERSON
+754	2	ne	ORGANIZATION
+758	40	ne	ORGANIZATION
+802	5	ne	GPE
+817	5	ne	GPE
+949	5	ne	PERSON
+1017	12	ne	DATE
+1051	5	ne	PERSON
+1068	4	ne	ORGANIZATION
+1077	7	ne	ORGANIZATION
+1094	3	ne	PERSON
+241	45	sentence
+288	31	sentence
+320	49	sentence
+371	54	sentence
+427	50	sentence
+479	47	sentence
+528	41	sentence
+571	40	sentence
+613	76	sentence
+691	66	sentence
+758	101	sentence
+861	113	sentence
+976	54	sentence
+1032	53	sentence
+1087	10	sentence

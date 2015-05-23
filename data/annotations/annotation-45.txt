@@ -1,0 +1,11 @@
+
+370	9	ne	WORK_OF_ART
+475	9	ne	PERSON
+515	9	ne	NATIONALITY
+525	6	ne	PER_DESC
+747	4	ne	PERSON
+343	118	sentence
+463	69	sentence
+533	100	sentence
+635	101	sentence
+738	13	sentence

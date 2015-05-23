@@ -1,0 +1,11 @@
+
+273	5	ne	PRODUCT
+283	10	ne	DATE
+328	5	ne	PERSON
+361	6	ne	PER_DESC
+492	10	ne	DATE
+215	79	sentence
+296	59	sentence
+356	173	sentence
+530	8	sentence
+539	8	sentence

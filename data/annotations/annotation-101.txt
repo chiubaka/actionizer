@@ -1,0 +1,8 @@
+
+281	12	ne	CONTACT_INFO
+310	13	ne	FAC
+386	4	ne	PERSON
+261	33	sentence
+296	28	sentence
+326	58	sentence
+386	4	sentence

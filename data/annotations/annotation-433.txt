@@ -1,0 +1,6 @@
+
+264	3	ne	PERSON
+382	8	ne	PERSON
+264	38	sentence
+304	76	sentence
+382	8	sentence

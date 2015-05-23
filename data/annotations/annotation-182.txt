@@ -1,0 +1,19 @@
+
+240	3	ne	PERSON
+316	4	ne	DISEASE
+321	8	ne	DATE
+356	12	ne	DATE
+373	23	ne	DATE
+459	6	ne	LOCATION
+564	12	ne	PER_DESC
+586	2	ne	GPE
+593	6	ne	GPE
+675	6	ne	PER_DESC
+689	15	ne	PERSON
+240	46	sentence
+287	82	sentence
+370	96	sentence
+467	66	sentence
+535	104	sentence
+640	47	sentence
+689	15	sentence

@@ -1,0 +1,6 @@
+
+318	5	ne	ORG_DESC
+416	12	ne	TIME
+314	115	sentence
+431	141	sentence
+574	21	sentence

@@ -1,0 +1,5 @@
+
+268	2	ne	PERSON
+295	16	ne	PERSON
+268	25	sentence
+295	16	sentence

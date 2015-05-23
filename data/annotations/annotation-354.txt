@@ -1,0 +1,8 @@
+
+205	11	ne	PERSON
+334	5	ne	GPE
+471	7	ne	PERSON
+480	11	ne	ORGANIZATION
+205	137	sentence
+343	127	sentence
+471	20	sentence

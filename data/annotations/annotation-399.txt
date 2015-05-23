@@ -1,0 +1,9 @@
+
+194	3	ne	PERSON
+238	5	ne	ORG_DESC
+268	24	ne	PERSON
+311	9	ne	FAC_DESC
+321	5	ne	PERSON
+194	50	sentence
+246	20	sentence
+268	58	sentence

@@ -1,0 +1,9 @@
+
+220	12	ne	PERSON
+385	10	ne	DISEASE
+530	4	ne	PERSON
+781	14	ne	PERSON
+220	43	sentence
+264	133	sentence
+398	239	sentence
+638	157	sentence

@@ -1,0 +1,17 @@
+
+269	7	ne	PERSON
+461	9	ne	NATIONALITY
+573	8	ne	PER_DESC
+667	6	ne	MONEY
+691	4	ne	GPE_DESC
+701	4	ne	CARDINAL
+709	8	ne	DATE
+720	4	ne	PERSON
+798	3	ne	PERSON
+269	175	sentence
+447	83	sentence
+531	99	sentence
+632	42	sentence
+676	42	sentence
+720	76	sentence
+798	3	sentence

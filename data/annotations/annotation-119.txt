@@ -1,0 +1,10 @@
+
+381	9	ne	PERSON
+437	6	ne	ORGANIZATION
+454	20	ne	CONTACT_INFO
+474	8	ne	GPE
+483	20	ne	CONTACT_INFO
+509	3	ne	PERSON
+381	72	sentence
+454	53	sentence
+509	3	sentence

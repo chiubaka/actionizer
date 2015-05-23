@@ -1,0 +1,5 @@
+
+261	3	ne	PERSON
+315	6	ne	DATE
+261	61	sentence
+323	13	sentence

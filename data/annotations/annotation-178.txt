@@ -1,0 +1,24 @@
+
+217	6	ne	PERSON
+264	7	ne	ORG_DESC
+307	1	ne	CONTACT_INFO
+353	5	ne	ORG_DESC
+545	3	ne	CARDINAL
+552	17	ne	ORGANIZATION
+609	1	ne	CARDINAL
+653	8	ne	ORG_DESC
+875	3	ne	CARDINAL
+1032	7	ne	PERSON
+1042	10	ne	PERSON
+217	92	sentence
+310	49	sentence
+360	23	sentence
+384	59	sentence
+444	69	sentence
+514	93	sentence
+609	53	sentence
+663	152	sentence
+816	151	sentence
+968	37	sentence
+1007	23	sentence
+1032	20	sentence

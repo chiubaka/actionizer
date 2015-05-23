@@ -1,0 +1,8 @@
+
+301	6	ne	PERSON
+501	5	ne	DATE
+691	3	ne	PERSON
+280	8	sentence
+289	180	sentence
+470	220	sentence
+691	3	sentence

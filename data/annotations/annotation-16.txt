@@ -1,0 +1,6 @@
+
+228	12	ne	DATE
+241	9	ne	DATE
+289	1	ne	CARDINAL
+202	49	sentence
+253	63	sentence

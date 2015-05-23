@@ -1,0 +1,22 @@
+
+229	15	ne	PERSON
+339	5	ne	ORG_DESC
+415	3	ne	SUBSTANCE
+422	8	ne	GPE
+615	2	ne	ORGANIZATION
+661	8	ne	PER_DESC
+765	3	ne	ORGANIZATION
+828	8	ne	PER_DESC
+979	3	ne	ORGANIZATION
+983	7	ne	PER_DESC
+1126	5	ne	ORG_DESC
+229	116	sentence
+347	84	sentence
+433	331	sentence
+765	80	sentence
+846	216	sentence
+1064	46	sentence
+1112	107	sentence
+1221	112	sentence
+1335	26	sentence
+1363	18	sentence

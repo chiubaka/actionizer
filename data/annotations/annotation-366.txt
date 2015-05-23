@@ -1,0 +1,9 @@
+
+232	10	ne	PERSON
+440	7	ne	TIME
+502	12	ne	PERSON
+232	108	sentence
+341	71	sentence
+413	34	sentence
+448	52	sentence
+502	12	sentence

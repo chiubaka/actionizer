@@ -1,0 +1,54 @@
+
+293	9	ne	ORG_DESC
+303	12	ne	DATE
+476	7	ne	DATE
+587	25	ne	DATE
+696	4	ne	CARDINAL
+715	10	ne	DATE
+778	29	ne	DATE
+939	7	ne	PERSON
+965	4	ne	PERSON
+1192	8	ne	NATIONALITY
+1201	12	ne	PER_DESC
+1226	3	ne	PERSON
+1247	8	ne	DATE
+1291	16	ne	TIME
+1315	5	ne	ORDINAL
+1337	17	ne	WORK_OF_ART
+1549	4	ne	ORGANIZATION
+1614	4	ne	PERSON
+1674	8	ne	SUBSTANCE
+1782	8	ne	PER_DESC
+1862	3	ne	PERSON
+1896	6	ne	PER_DESC
+1904	3	ne	PERSON
+1978	1	ne	CARDINAL
+2110	7	ne	PERSON
+2183	3	ne	CARDINAL
+2207	3	ne	PERSON
+2229	9	ne	PERSON
+2245	4	ne	ORGANIZATION
+2258	3	ne	CARDINAL
+212	104	sentence
+317	136	sentence
+455	80	sentence
+537	100	sentence
+638	63	sentence
+703	234	sentence
+939	25	sentence
+965	73	sentence
+1039	61	sentence
+1101	155	sentence
+1258	51	sentence
+1311	127	sentence
+1439	51	sentence
+1492	56	sentence
+1549	63	sentence
+1614	111	sentence
+1727	176	sentence
+1904	58	sentence
+1964	145	sentence
+2110	62	sentence
+2173	33	sentence
+2207	37	sentence
+2245	63	sentence

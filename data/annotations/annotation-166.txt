@@ -1,0 +1,14 @@
+
+228	4	ne	PERSON
+233	9	ne	PER_DESC
+243	3	ne	PERSON
+286	4	ne	ORGANIZATION
+404	9	ne	PER_DESC
+564	13	ne	DATE
+736	24	ne	PERSON
+228	93	sentence
+322	69	sentence
+392	136	sentence
+531	87	sentence
+619	94	sentence
+716	44	sentence

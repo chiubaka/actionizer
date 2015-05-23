@@ -1,0 +1,10 @@
+
+286	9	ne	DATE
+296	12	ne	TIME
+312	15	ne	TIME
+567	11	ne	PERSON
+583	12	ne	PERSON
+263	65	sentence
+329	187	sentence
+518	47	sentence
+567	28	sentence

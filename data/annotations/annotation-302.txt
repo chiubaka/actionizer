@@ -1,0 +1,26 @@
+
+222	3	ne	PERSON
+325	9	ne	PER_DESC
+343	8	ne	GPE
+537	13	ne	ORG_DESC
+574	4	ne	ORGANIZATION
+1000	9	ne	ORG_DESC
+1118	17	ne	PERSON
+1169	7	ne	ORG_DESC
+1215	3	ne	DATE
+1309	4	ne	PERSON
+1472	7	ne	PERSON
+222	80	sentence
+303	71	sentence
+375	108	sentence
+484	10	sentence
+497	210	sentence
+708	109	sentence
+818	155	sentence
+974	142	sentence
+1118	149	sentence
+1270	38	sentence
+1309	10	sentence
+1321	64	sentence
+1386	83	sentence
+1472	7	sentence

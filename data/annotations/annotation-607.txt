@@ -1,0 +1,6 @@
+
+245	9	ne	DATE
+264	9	ne	DATE
+276	4	ne	PERSON
+223	51	sentence
+276	4	sentence

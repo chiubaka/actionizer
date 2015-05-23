@@ -1,0 +1,20 @@
+
+181	5	ne	ANIMAL
+187	4	ne	PERSON
+304	5	ne	PRODUCT_DESC
+317	6	ne	DATE
+329	9	ne	GPE
+343	6	ne	DATE
+361	3	ne	FAC_DESC
+424	8	ne	DATE
+433	19	ne	TIME
+538	5	ne	ORG_DESC
+596	1	ne	ORGANIZATION
+623	4	ne	PERSON
+181	119	sentence
+301	101	sentence
+405	83	sentence
+490	72	sentence
+563	41	sentence
+605	17	sentence
+623	4	sentence

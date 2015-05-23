@@ -1,0 +1,11 @@
+
+357	3	ne	ORGANIZATION
+369	11	ne	DATE
+384	9	ne	DATE
+394	10	ne	TIME
+464	1	ne	DATE
+493	4	ne	PERSON
+348	57	sentence
+406	50	sentence
+457	32	sentence
+491	6	sentence

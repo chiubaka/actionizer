@@ -1,0 +1,7 @@
+
+381	5	ne	PERSON
+261	20	sentence
+283	27	sentence
+313	31	sentence
+347	32	sentence
+381	5	sentence

@@ -1,0 +1,14 @@
+
+181	5	ne	ANIMAL
+187	4	ne	PERSON
+223	6	ne	DATE
+279	14	ne	DATE
+295	7	ne	DATE
+304	15	ne	DATE
+455	4	ne	PERSON
+181	140	sentence
+322	35	sentence
+358	54	sentence
+413	18	sentence
+432	22	sentence
+455	4	sentence

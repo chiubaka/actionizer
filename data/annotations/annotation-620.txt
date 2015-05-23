@@ -1,0 +1,18 @@
+
+301	10	ne	PERSON
+319	5	ne	PERSON
+463	5	ne	GPE
+477	4	ne	GPE
+526	7	ne	PERSON
+578	9	ne	ORG_DESC
+630	25	ne	ORGANIZATION
+656	5	ne	ORG_DESC
+826	10	ne	PERSON
+882	6	ne	PERSON
+301	203	sentence
+506	112	sentence
+619	94	sentence
+714	70	sentence
+785	74	sentence
+861	20	sentence
+882	16	sentence

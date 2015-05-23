@@ -1,0 +1,12 @@
+
+320	11	ne	PERSON
+334	10	ne	ORGANIZATION
+376	11	ne	PER_DESC
+415	3	ne	MONEY
+422	6	ne	LOCATION
+429	3	ne	ORGANIZATION
+476	3	ne	MONEY
+289	119	sentence
+409	79	sentence
+489	36	sentence
+526	5	sentence

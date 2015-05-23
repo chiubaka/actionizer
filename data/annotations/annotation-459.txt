@@ -1,0 +1,4 @@
+
+229	7	ne	PERSON
+196	25	sentence
+222	14	sentence

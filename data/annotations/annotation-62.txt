@@ -1,0 +1,16 @@
+
+254	5	ne	ANIMAL
+262	8	ne	PERSON
+276	5	ne	ORDINAL
+341	5	ne	ORG_DESC
+395	9	ne	DATE
+568	8	ne	DATE
+254	95	sentence
+350	55	sentence
+407	69	sentence
+477	46	sentence
+525	171	sentence
+698	46	sentence
+745	38	sentence
+785	81	sentence
+867	9	sentence

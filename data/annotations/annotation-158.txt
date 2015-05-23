@@ -1,0 +1,9 @@
+
+238	6	ne	PERSON
+262	3	ne	PERSON
+268	7	ne	ORG_DESC
+459	7	ne	PERSON
+238	63	sentence
+303	123	sentence
+427	30	sentence
+459	7	sentence

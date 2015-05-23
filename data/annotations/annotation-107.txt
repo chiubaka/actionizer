@@ -1,0 +1,14 @@
+
+192	9	ne	PERSON
+233	9	ne	GPE
+481	6	ne	PRODUCT_DESC
+505	3	ne	ORGANIZATION
+552	11	ne	DATE
+564	3	ne	ORGANIZATION
+192	82	sentence
+276	99	sentence
+377	53	sentence
+431	10	sentence
+444	56	sentence
+501	66	sentence
+569	5	sentence

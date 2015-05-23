@@ -1,0 +1,11 @@
+
+254	4	ne	ORGANIZATION
+329	10	ne	DATE
+340	14	ne	DATE
+384	15	ne	CONTACT_INFO
+405	17	ne	PERSON
+425	2	ne	PERSON
+193	81	sentence
+276	79	sentence
+357	47	sentence
+405	22	sentence

@@ -1,0 +1,8 @@
+
+261	2	ne	DATE
+280	2	ne	CARDINAL
+298	12	ne	ORG_DESC
+426	2	ne	DATE
+212	71	sentence
+285	134	sentence
+421	44	sentence

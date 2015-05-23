@@ -1,0 +1,16 @@
+
+227	3	ne	PERSON
+253	2	ne	CARDINAL
+256	2	ne	ORGANIZATION
+259	6	ne	PER_DESC
+436	15	ne	TIME
+468	6	ne	PER_DESC
+671	8	ne	NATIONALITY
+725	6	ne	PER_DESC
+765	7	ne	ORG_DESC
+786	7	ne	PERSON
+227	79	sentence
+307	201	sentence
+509	102	sentence
+612	172	sentence
+786	7	sentence

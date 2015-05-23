@@ -1,0 +1,9 @@
+
+215	6	ne	PERSON
+367	2	ne	PRODUCT
+374	11	ne	TIME
+389	6	ne	DATE
+406	10	ne	PERSON
+215	68	sentence
+284	112	sentence
+398	18	sentence

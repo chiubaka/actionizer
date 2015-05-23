@@ -1,0 +1,8 @@
+
+225	5	ne	ANIMAL
+336	3	ne	CARDINAL
+225	149	sentence
+375	41	sentence
+418	91	sentence
+511	7	sentence
+520	5	sentence

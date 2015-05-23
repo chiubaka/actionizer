@@ -1,0 +1,8 @@
+
+292	5	ne	PER_DESC
+335	5	ne	DATE
+346	5	ne	DATE
+359	4	ne	DATE
+373	6	ne	PERSON
+284	80	sentence
+365	14	sentence

@@ -1,0 +1,12 @@
+
+254	6	ne	PERSON
+320	6	ne	DATE
+444	11	ne	WORK_OF_ART
+494	3	ne	ORGANIZATION
+526	6	ne	FAC_DESC
+254	73	sentence
+329	86	sentence
+417	39	sentence
+458	34	sentence
+494	44	sentence
+540	36	sentence

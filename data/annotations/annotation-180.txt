@@ -1,0 +1,10 @@
+
+311	6	ne	PERSON
+323	7	ne	PER_DESC
+362	6	ne	DATE
+428	7	ne	TIME
+458	11	ne	PER_DESC
+479	3	ne	PERSON
+311	58	sentence
+371	99	sentence
+471	11	sentence

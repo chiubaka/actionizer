@@ -1,0 +1,7 @@
+
+234	5	ne	ANIMAL
+247	3	ne	PERSON
+382	10	ne	DATE
+234	93	sentence
+328	65	sentence
+396	13	sentence

@@ -1,0 +1,8 @@
+
+244	22	ne	PERSON
+298	8	ne	PERSON
+329	9	ne	PER_DESC
+244	37	sentence
+284	55	sentence
+341	70	sentence
+413	3	sentence

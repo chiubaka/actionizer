@@ -1,0 +1,10 @@
+
+244	13	ne	DATE
+300	6	ne	DATE
+307	9	ne	DATE
+320	9	ne	DATE
+405	5	ne	PERSON
+222	36	sentence
+259	71	sentence
+331	72	sentence
+405	5	sentence

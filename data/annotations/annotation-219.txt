@@ -1,0 +1,8 @@
+
+247	2	ne	ORGANIZATION
+262	2	ne	GPE
+435	7	ne	DATE
+247	3	sentence
+251	112	sentence
+364	36	sentence
+401	90	sentence

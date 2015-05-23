@@ -1,0 +1,16 @@
+
+239	20	ne	PERSON
+264	3	ne	CARDINAL
+268	5	ne	ORGANIZATION
+306	20	ne	PERSON
+333	11	ne	PER_DESC
+370	8	ne	ORGANIZATION
+380	14	ne	PERSON
+446	21	ne	PERSON
+475	16	ne	PERSON
+235	68	sentence
+306	73	sentence
+380	60	sentence
+446	27	sentence
+475	22	sentence
+501	14	sentence

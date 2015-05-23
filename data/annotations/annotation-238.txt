@@ -1,0 +1,12 @@
+
+206	15	ne	PERSON
+396	4	ne	FAC_DESC
+502	11	ne	GPE
+613	14	ne	MONEY
+653	12	ne	WORK_OF_ART
+670	24	ne	ORGANIZATION
+206	99	sentence
+306	127	sentence
+434	80	sentence
+515	113	sentence
+631	63	sentence

@@ -1,0 +1,7 @@
+
+196	9	ne	PERSON
+353	3	ne	ORGANIZATION
+196	33	sentence
+230	67	sentence
+300	27	sentence
+329	27	sentence

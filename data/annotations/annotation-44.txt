@@ -1,0 +1,7 @@
+
+279	5	ne	CARDINAL
+321	16	ne	DATE
+340	17	ne	PERSON
+275	25	sentence
+301	37	sentence
+340	24	sentence

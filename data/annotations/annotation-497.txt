@@ -1,0 +1,12 @@
+
+216	5	ne	PERSON
+246	2	ne	CARDINAL
+310	11	ne	PER_DESC
+325	5	ne	PER_DESC
+342	4	ne	TIME
+348	9	ne	TIME
+399	13	ne	TIME
+415	4	ne	ORGANIZATION
+216	66	sentence
+284	129	sentence
+415	4	sentence

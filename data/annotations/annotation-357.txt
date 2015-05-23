@@ -1,0 +1,23 @@
+
+303	8	ne	PERSON
+430	8	ne	PER_DESC
+476	7	ne	PER_DESC
+514	6	ne	PER_DESC
+573	6	ne	PER_DESC
+584	7	ne	PER_DESC
+623	15	ne	DATE
+683	8	ne	PER_DESC
+805	9	ne	SUBSTANCE
+825	7	ne	PER_DESC
+1318	11	ne	PER_DESC
+1338	11	ne	PER_DESC
+1423	33	ne	DATE
+1682	17	ne	DATE
+303	61	sentence
+365	156	sentence
+522	469	sentence
+992	164	sentence
+1159	191	sentence
+1351	195	sentence
+1547	153	sentence
+1701	8	sentence

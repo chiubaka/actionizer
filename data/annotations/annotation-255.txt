@@ -1,0 +1,18 @@
+
+234	6	ne	PERSON
+282	10	ne	PERSON
+325	5	ne	PERSON
+444	11	ne	PERSON
+573	9	ne	NATIONALITY
+610	1	ne	CARDINAL
+620	6	ne	PER_DESC
+700	8	ne	PERSON
+748	7	ne	PERSON
+234	32	sentence
+267	45	sentence
+313	113	sentence
+427	102	sentence
+530	98	sentence
+630	68	sentence
+700	46	sentence
+748	7	sentence

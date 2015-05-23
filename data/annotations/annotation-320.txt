@@ -1,0 +1,20 @@
+
+276	6	ne	PERSON
+352	2	ne	ORGANIZATION
+408	3	ne	CARDINAL
+480	4	ne	DATE
+503	17	ne	DATE
+522	3	ne	PERSON
+535	11	ne	PERSON
+554	3	ne	ORGANIZATION
+683	2	ne	GPE
+849	12	ne	DATE
+885	7	ne	PERSON
+276	63	sentence
+340	72	sentence
+413	108	sentence
+522	164	sentence
+687	98	sentence
+787	75	sentence
+864	19	sentence
+885	7	sentence

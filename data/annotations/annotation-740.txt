@@ -1,0 +1,13 @@
+
+168	4	ne	PERSON
+217	7	ne	DATE
+228	9	ne	DATE
+241	5	ne	TIME
+337	5	ne	ORG_DESC
+388	1	ne	NATIONALITY
+405	4	ne	ORGANIZATION
+168	15	sentence
+184	89	sentence
+274	33	sentence
+308	88	sentence
+397	12	sentence

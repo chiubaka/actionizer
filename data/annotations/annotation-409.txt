@@ -1,0 +1,4 @@
+
+234	3	ne	PERSON
+268	8	ne	ORG_DESC
+234	66	sentence

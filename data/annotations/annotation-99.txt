@@ -1,0 +1,24 @@
+
+428	3	ne	PERSON
+433	8	ne	GPE
+443	4	ne	PERSON
+449	17	ne	PERSON
+572	2	ne	PRODUCT
+801	3	ne	ORGANIZATION
+805	8	ne	ORG_DESC
+862	9	ne	FAC_DESC
+975	10	ne	ORGANIZATION
+990	4	ne	PERSON
+1176	4	ne	PERSON
+1275	3	ne	PERSON
+422	198	sentence
+622	113	sentence
+737	99	sentence
+838	100	sentence
+939	103	sentence
+1044	96	sentence
+1142	11	sentence
+1155	19	sentence
+1176	65	sentence
+1243	31	sentence
+1275	3	sentence

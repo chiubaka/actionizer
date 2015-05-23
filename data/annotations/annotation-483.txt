@@ -1,0 +1,6 @@
+
+485	5	ne	PERSON
+305	10	sentence
+316	87	sentence
+404	71	sentence
+477	13	sentence

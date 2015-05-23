@@ -1,0 +1,24 @@
+
+226	3	ne	PERSON
+263	17	ne	PERSON
+288	5	ne	NATIONALITY
+360	2	ne	ORGANIZATION
+378	7	ne	PERSON
+682	2	ne	CARDINAL
+685	6	ne	PER_DESC
+726	8	ne	PER_DESC
+771	3	ne	PERCENT
+819	7	ne	DATE
+902	1	ne	CARDINAL
+904	6	ne	PER_DESC
+993	8	ne	DATE
+1153	7	ne	PERSON
+226	108	sentence
+335	235	sentence
+571	92	sentence
+665	135	sentence
+801	69	sentence
+871	85	sentence
+957	45	sentence
+1003	148	sentence
+1153	7	sentence

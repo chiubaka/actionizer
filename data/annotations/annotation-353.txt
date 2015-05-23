@@ -1,0 +1,12 @@
+
+296	7	ne	ORG_DESC
+354	6	ne	PER_DESC
+364	8	ne	PRODUCT_DESC
+508	7	ne	ORG_DESC
+542	6	ne	PERSON
+265	147	sentence
+413	118	sentence
+533	92	sentence
+627	98	sentence
+727	41	sentence
+770	14	sentence

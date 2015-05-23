@@ -1,0 +1,23 @@
+
+237	3	ne	PERSON
+635	9	ne	FAC_DESC
+734	8	ne	DATE
+823	4	ne	GPE
+844	4	ne	ORGANIZATION
+885	8	ne	DATE
+990	11	ne	ORGANIZATION
+1083	7	ne	ORG_DESC
+1101	12	ne	DATE
+1117	5	ne	GPE
+1226	8	ne	FAC_DESC
+1269	7	ne	PERSON
+237	54	sentence
+293	229	sentence
+524	165	sentence
+691	91	sentence
+785	109	sentence
+895	78	sentence
+975	116	sentence
+1093	142	sentence
+1239	28	sentence
+1269	7	sentence

@@ -1,0 +1,22 @@
+
+322	11	ne	PRODUCT
+408	17	ne	DATE
+659	8	ne	ORGANIZATION
+670	8	ne	ORGANIZATION
+718	3	ne	PERSON
+838	7	ne	PER_DESC
+1016	6	ne	DATE
+1097	3	ne	PERSON
+1108	4	ne	PERSON
+276	87	sentence
+365	111	sentence
+478	19	sentence
+499	169	sentence
+670	119	sentence
+790	19	sentence
+811	108	sentence
+921	61	sentence
+984	39	sentence
+1025	76	sentence
+1103	3	sentence
+1108	4	sentence

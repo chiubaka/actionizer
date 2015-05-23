@@ -1,0 +1,5 @@
+
+461	10	ne	TIME
+485	3	ne	PERSON
+433	51	sentence
+485	13	sentence

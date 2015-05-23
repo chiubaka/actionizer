@@ -1,0 +1,21 @@
+
+242	6	ne	PERSON
+283	7	ne	DATE
+335	8	ne	PERSON
+493	8	ne	PERSON
+614	8	ne	PERSON
+695	4	ne	FAC_DESC
+726	3	ne	ORGANIZATION
+730	8	ne	PER_DESC
+805	8	ne	DATE
+834	3	ne	CARDINAL
+838	4	ne	FAC_DESC
+242	49	sentence
+293	98	sentence
+393	99	sentence
+493	37	sentence
+532	80	sentence
+614	86	sentence
+703	111	sentence
+816	47	sentence
+865	16	sentence

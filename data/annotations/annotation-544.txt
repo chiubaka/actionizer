@@ -1,0 +1,12 @@
+
+208	8	ne	CONTACT_INFO
+218	6	ne	ORDINAL
+225	5	ne	FAC_DESC
+266	5	ne	SUBSTANCE
+282	3	ne	DATE
+287	4	ne	PERSON
+208	9	sentence
+218	13	sentence
+232	29	sentence
+262	24	sentence
+287	4	sentence

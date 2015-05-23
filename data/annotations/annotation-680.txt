@@ -1,0 +1,7 @@
+
+284	8	ne	DATE
+310	13	ne	PERSON
+336	5	ne	FAC_DESC
+284	24	sentence
+310	39	sentence
+351	3	sentence

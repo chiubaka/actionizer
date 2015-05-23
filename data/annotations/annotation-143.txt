@@ -1,0 +1,6 @@
+
+403	11	ne	DATE
+416	23	ne	TIME
+441	11	ne	TIME
+403	63	sentence
+468	5	sentence

@@ -1,0 +1,4 @@
+
+347	9	ne	DATE
+374	6	ne	TIME
+347	63	sentence

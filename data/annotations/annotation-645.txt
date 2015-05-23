@@ -1,0 +1,11 @@
+
+273	8	ne	DATE
+313	8	ne	DATE
+337	4	ne	ORGANIZATION
+388	8	ne	DATE
+411	17	ne	DATE
+442	8	ne	DATE
+476	4	ne	PERSON
+215	215	sentence
+431	41	sentence
+474	6	sentence

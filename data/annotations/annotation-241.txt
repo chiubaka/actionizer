@@ -1,0 +1,6 @@
+
+332	8	ne	DATE
+222	16	sentence
+240	44	sentence
+286	55	sentence
+343	3	sentence

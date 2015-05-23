@@ -1,0 +1,8 @@
+
+205	4	ne	PERSON
+275	10	ne	DATE
+369	4	ne	CONTACT_INFO
+205	18	sentence
+224	81	sentence
+306	62	sentence
+369	4	sentence

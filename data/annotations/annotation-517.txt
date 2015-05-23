@@ -1,0 +1,8 @@
+
+256	8	ne	PERSON
+315	2	ne	ORGANIZATION
+408	5	ne	PERSON
+256	72	sentence
+331	67	sentence
+400	7	sentence
+408	5	sentence

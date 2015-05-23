@@ -1,0 +1,24 @@
+
+239	12	ne	PERSON
+272	8	ne	GPE
+284	13	ne	PERSON
+328	6	ne	DATE
+336	6	ne	DATE
+383	8	ne	DATE
+435	14	ne	PERSON
+469	10	ne	PRODUCT_DESC
+517	3	ne	ORGANIZATION
+525	1	ne	WORK_OF_ART
+700	8	ne	DATE
+818	8	ne	DATE
+855	6	ne	DATE
+868	7	ne	PERSON
+239	104	sentence
+345	47	sentence
+394	133	sentence
+529	20	sentence
+552	61	sentence
+615	149	sentence
+768	94	sentence
+864	28	sentence
+894	3	sentence

@@ -1,0 +1,10 @@
+
+229	7	ne	PER_DESC
+245	5	ne	PER_DESC
+305	8	ne	DATE
+320	12	ne	TIME
+418	6	ne	PER_DESC
+226	107	sentence
+335	56	sentence
+393	55	sentence
+450	15	sentence

@@ -1,0 +1,22 @@
+
+302	3	ne	PERSON
+344	2	ne	ORGANIZATION
+745	7	ne	GPE
+753	9	ne	DATE
+822	8	ne	DATE
+877	13	ne	PER_DESC
+894	3	ne	CARDINAL
+925	12	ne	PER_DESC
+972	10	ne	PER_DESC
+1370	7	ne	PERSON
+302	144	sentence
+447	109	sentence
+557	58	sentence
+616	147	sentence
+764	53	sentence
+819	119	sentence
+939	146	sentence
+1086	56	sentence
+1143	132	sentence
+1276	92	sentence
+1370	7	sentence

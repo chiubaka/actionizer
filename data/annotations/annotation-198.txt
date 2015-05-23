@@ -1,0 +1,12 @@
+
+248	6	ne	PERSON
+279	21	ne	DATE
+304	13	ne	CARDINAL
+343	13	ne	CARDINAL
+362	7	ne	PER_DESC
+393	7	ne	PLANT
+420	23	ne	DATE
+479	14	ne	PERSON
+248	109	sentence
+359	118	sentence
+479	14	sentence

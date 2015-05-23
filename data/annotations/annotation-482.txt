@@ -1,0 +1,16 @@
+
+305	3	ne	CARDINAL
+324	5	ne	ORG_DESC
+377	3	ne	CARDINAL
+381	6	ne	PER_DESC
+395	4	ne	FAC_DESC
+502	6	ne	PER_DESC
+631	23	ne	PRODUCT
+753	5	ne	PERSON
+305	40	sentence
+346	115	sentence
+462	74	sentence
+538	127	sentence
+666	27	sentence
+695	48	sentence
+745	13	sentence

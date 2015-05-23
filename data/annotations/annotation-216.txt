@@ -1,0 +1,5 @@
+
+250	3	ne	PERSON
+274	12	ne	CONTACT_INFO
+246	8	sentence
+255	32	sentence

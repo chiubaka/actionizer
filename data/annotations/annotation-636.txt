@@ -1,0 +1,6 @@
+
+337	3	ne	PERSON
+366	8	ne	ORGANIZATION
+386	5	ne	PERSON
+337	47	sentence
+386	5	sentence

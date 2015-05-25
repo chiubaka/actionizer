@@ -54,8 +54,8 @@ def main():
     pipeline = Pipeline([('vect', CountVectorizer()), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
     pipeline.fit(messages, target)
 
-    scores = cross_validation.cross_val_score(pipeline, messages, target, cv=5)
-    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    scores = cross_validation.cross_val_score(pipeline, messages, target, scoring='f1', cv=5)
+    print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":
     main()

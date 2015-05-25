@@ -3,6 +3,8 @@
 import numpy as np
 import os
 from sklearn import datasets
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import classification_report
 
 MESSAGES_DIR = "data/messages/"
 JUDGMENTS_PATH = "data/judgments/judgments.txt"
@@ -15,9 +17,30 @@ def load_messages():
 
     return messages
 
-def tfidf(documents):
+def bag_of_words(documents):
+    tokens = set()
+    # Go through all the documents and collect all of the unique tokens
+    for document in documents:
+        for token in document.split():
+            tokens.add(token)
+
+    # Create an empty dense matrix with one row for every document and one column for every token
+    mat = np.zeros((len(documents), len(tokens)))
+
+    # Convert tokens from a set to a list so that we can grab the index of a token from the set
+    tokens = list(tokens)
+
+    # Go through all the documents again and count the frequency of each token
+    for row, document in enumerate(documents):
+        for token in document.split():
+            col = tokens.index(token)
+            mat[row][col] += 1
+
+    return mat
+
+def tfidf(data):
     # TODO: Stub implementation
-    return [[]]
+    return data
 
 def load_judgments():
     judgments = []
@@ -30,8 +53,15 @@ def load_judgments():
 def main():
     messages = load_messages()
     target = load_judgments()
+    data = bag_of_words(messages)
+    print data
     print target
-    data = tfidf(messages)
+    #data = tfidf(data)
+
+    # Gaussian Naive Bayes Classifier
+    gnb = GaussianNB()
+    predictions = gnb.fit(data, target).predict(data)
+    print classification_report(target, predictions, target_names=["No action", "Action"])
 
 if __name__ == "__main__":
     main()

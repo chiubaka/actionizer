@@ -75,7 +75,7 @@ def main():
 
     print grid_search.best_params_
 
-    scores = cross_validation.cross_val_score(grid_search, messages, target, cv=5)
+    scores = cross_validation.cross_val_score(grid_search, messages, target, scoring='f1', cv=5)
     print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":

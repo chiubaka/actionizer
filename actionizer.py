@@ -5,6 +5,7 @@ import os
 from sklearn import datasets, cross_validation
 from sklearn.base import TransformerMixin
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics import classification_report
 from sklearn.naive_bayes import GaussianNB
 from sklearn.pipeline import Pipeline
@@ -51,7 +52,7 @@ def main():
     messages = load_messages()
     target = load_judgments()
 
-    pipeline = Pipeline([('vect', CountVectorizer()), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
+    pipeline = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
     pipeline.fit(messages, target)
 
     scores = cross_validation.cross_val_score(pipeline, messages, target, cv=5)

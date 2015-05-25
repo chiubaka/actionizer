@@ -3,8 +3,11 @@
 import numpy as np
 import os
 from sklearn import datasets, cross_validation
-from sklearn.naive_bayes import GaussianNB
+from sklearn.base import TransformerMixin
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import classification_report
+from sklearn.naive_bayes import GaussianNB
+from sklearn.pipeline import Pipeline
 
 MESSAGES_DIR = "data/messages/"
 JUDGMENTS_PATH = "data/judgments/judgments.txt"
@@ -17,31 +20,6 @@ def load_messages():
 
     return messages
 
-def bag_of_words(documents):
-    tokens = set()
-    # Go through all the documents and collect all of the unique tokens
-    for document in documents:
-        for token in document.split():
-            tokens.add(token)
-
-    # Create an empty dense matrix with one row for every document and one column for every token
-    mat = np.zeros((len(documents), len(tokens)))
-
-    # Convert tokens from a set to a list so that we can grab the index of a token from the set
-    tokens = list(tokens)
-
-    # Go through all the documents again and count the frequency of each token
-    for row, document in enumerate(documents):
-        for token in document.split():
-            col = tokens.index(token)
-            mat[row][col] += 1
-
-    return mat
-
-def tfidf(data):
-    # TODO: Stub implementation
-    return data
-
 def load_judgments():
     judgments = []
     with open(JUDGMENTS_PATH) as judgments_file:
@@ -50,17 +28,25 @@ def load_judgments():
 
     return judgments
 
+class DenseTransformer(TransformerMixin):
+    def transform(self, X, y=None, **fit_params):
+        return X.todense()
+
+    def fit_transform(self, X, y=None, **fit_params):
+        self.fit(X, y, **fit_params)
+        return self.transform(X)
+
+    def fit(self, X, y=None, **fit_params):
+        return self
+
 def main():
     messages = load_messages()
     target = load_judgments()
-    data = bag_of_words(messages)
-    #data = tfidf(data)
 
-    # Gaussian Naive Bayes Classifier
-    gnb = GaussianNB()
-    #predictions = gnb.fit(data, target).predict(data)
-    #print classification_report(target, predictions, target_names=["No action", "Action"])
-    scores = cross_validation.cross_val_score(gnb, data, target, cv=5)
+    pipeline = Pipeline([('vect', CountVectorizer()), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
+    pipeline.fit(messages, target)
+
+    scores = cross_validation.cross_val_score(pipeline, messages, target, cv=5)
     print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":

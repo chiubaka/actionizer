@@ -6,9 +6,11 @@ from sklearn import datasets, cross_validation
 from sklearn.base import TransformerMixin
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.grid_search import GridSearchCV
 from sklearn.metrics import classification_report
 from sklearn.naive_bayes import GaussianNB
 from sklearn.pipeline import Pipeline
+from sklearn.svm import SVC
 
 MESSAGES_DIR = "data/messages/"
 MESSAGE_FILENAME_FORMAT = "msg-%d.txt"
@@ -48,14 +50,32 @@ class DenseTransformer(TransformerMixin):
     def fit(self, X, y=None, **fit_params):
         return self
 
+    def get_params(self, deep=False):
+        return {}
+
 def main():
     messages = load_messages()
     target = load_judgments()
 
-    pipeline = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
+
+    pipeline = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', SVC())])
     pipeline.fit(messages, target)
 
-    scores = cross_validation.cross_val_score(pipeline, messages, target, cv=5)
+    param_grid = {
+        'tfidf__norm': ['l1', 'l2', None],
+        'tfidf__smooth_idf': [True, False],
+        'tfidf__sublinear_tf': [True, False],
+        'clf__C': [1, 10, 100, 1000], 
+        'clf__kernel': ['linear', 'poly', 'rbf', 'sigmoid'],
+        'clf__degree': [2, 3, 4, 5]
+    }
+
+    grid_search = GridSearchCV(pipeline, param_grid=param_grid, scoring='f1', n_jobs=-1, verbose=10, cv=5)
+    grid_search.fit(messages, target)
+
+    print grid_search.best_params_
+
+    scores = cross_validation.cross_val_score(grid_search, messages, target, cv=5)
     print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":

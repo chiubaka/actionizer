@@ -10,11 +10,18 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.pipeline import Pipeline
 
 MESSAGES_DIR = "data/messages/"
+MESSAGE_FILENAME_FORMAT = "msg-%d.txt"
 JUDGMENTS_PATH = "data/judgments/judgments.txt"
 
 def load_messages():
     messages = []
-    for filename in os.listdir(MESSAGES_DIR):
+
+    # Read message files in numeric order. os.listdir() returns them sorted by string, not message
+    # number.
+    filenames = os.listdir(MESSAGES_DIR)
+    num_messages = len(filenames)
+    for i in range(num_messages):
+        filename = MESSAGE_FILENAME_FORMAT % i
         with open(MESSAGES_DIR + filename) as message_file:
             messages.append(message_file.read())
 
@@ -28,6 +35,7 @@ def load_judgments():
 
     return judgments
 
+# Transformer to transform a sparse matrix into a dense matrix for use in an sklearn pipeline.
 class DenseTransformer(TransformerMixin):
     def transform(self, X, y=None, **fit_params):
         return X.todense()

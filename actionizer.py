@@ -2,7 +2,7 @@
 
 import numpy as np
 import os
-from sklearn import datasets
+from sklearn import datasets, cross_validation
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report
 
@@ -54,14 +54,14 @@ def main():
     messages = load_messages()
     target = load_judgments()
     data = bag_of_words(messages)
-    print data
-    print target
     #data = tfidf(data)
 
     # Gaussian Naive Bayes Classifier
     gnb = GaussianNB()
-    predictions = gnb.fit(data, target).predict(data)
-    print classification_report(target, predictions, target_names=["No action", "Action"])
+    #predictions = gnb.fit(data, target).predict(data)
+    #print classification_report(target, predictions, target_names=["No action", "Action"])
+    scores = cross_validation.cross_val_score(gnb, data, target, cv=5)
+    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":
     main()

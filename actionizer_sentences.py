@@ -99,5 +99,8 @@ def main():
     scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring='f1', cv=5)
     print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
+    scores = cross_validation.cross_val_score(pipeline, sentences, target, cv=5)
+    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+
 if __name__ == "__main__":
     main()

@@ -58,13 +58,10 @@ def main():
     target = load_judgments()
 
 
-    pipeline = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', SVC())])
+    pipeline = Pipeline([('vect', CountVectorizer()), ('to_dense', DenseTransformer()), ('clf', SVC())])
     pipeline.fit(messages, target)
 
     param_grid = {
-        'tfidf__norm': ['l1', 'l2', None],
-        'tfidf__smooth_idf': [True, False],
-        'tfidf__sublinear_tf': [True, False],
         'clf__C': [1, 10, 100, 1000], 
         'clf__kernel': ['linear', 'poly', 'rbf', 'sigmoid'],
         'clf__degree': [2, 3, 4, 5]
@@ -77,6 +74,9 @@ def main():
 
     scores = cross_validation.cross_val_score(grid_search.best_estimator_, messages, target, scoring='f1', cv=5)
     print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+
+    scores = cross_validation.cross_val_score(grid_search.best_estimator_, messages, target, cv=5)
+    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":
     main()

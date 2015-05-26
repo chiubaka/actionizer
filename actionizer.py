@@ -70,13 +70,13 @@ def main():
         'clf__degree': [2, 3, 4, 5]
     }
 
-    grid_search = GridSearchCV(pipeline, param_grid=param_grid, scoring='f1', n_jobs=-1, verbose=10, cv=5)
+    grid_search = GridSearchCV(pipeline, param_grid=param_grid, scoring='f1', n_jobs=-1, verbose=10, cv=3)
     grid_search.fit(messages, target)
 
     print grid_search.best_params_
 
-    scores = cross_validation.cross_val_score(grid_search, messages, target, scoring='f1', cv=5)
-    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    scores = cross_validation.cross_val_score(grid_search.best_estimator_, messages, target, scoring='f1', cv=5)
+    print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":
     main()

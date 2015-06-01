@@ -135,7 +135,7 @@ class DenseTransformer(TransformerMixin):
 def main():
     sentences, target = load_sentences()
 
-    pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 3))), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
+    pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 4))), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
     pipeline.fit(sentences, target)
 
     scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring='f1', cv=5)

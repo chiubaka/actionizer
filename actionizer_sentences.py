@@ -38,30 +38,57 @@ def load_sentence_judgments():
 
     return judgments
 
+def overlap(start, length, action_start, action_length, threshold):
+    min_start = min(start, action_start)
+    max_start = max(start, action_start)
+    # These names are a little confusing--not the minimum length, but rather the length associated
+    # with the min_start. Couldn't think of a better name.
+    min_length = length if min_start == start else action_length
+    max_length = length if max_start == start else action_length
+
+    # min_start + min_length is the end of the string that comes first in the message. When
+    # max_start is subtracted out, we should get the length of overlap in the message. We don't
+    # really have a use for negative overlap_length values so just make anything below 0 into a 0.
+    # We can't have an overlap that is longer than the length of the action.
+    overlap_length = min(max(min_start + min_length - max_start, 0), action_length)
+
+    # If the amount that overlapped was greater than or equal to the threshold, return true. Else
+    # return false.
+    return overlap_length / float(action_length) >= threshold
+
 def load_sentences():
     messages = load_messages()
     judgments = load_sentence_judgments()
-    action_sentences = []
-    no_action_sentences = []
+    num_action_indices = 0
+    action_sentences = set()
+    no_action_sentences = set()
     for i in range(len(messages)):
         message = messages[i]
         sentences = parse_sentences(message)
         action_indices = judgments[i]
         if len(action_indices) > 0:
             for i in range(0, len(action_indices), 2):
-                start_index = action_indices[i]
-                length = action_indices[i+1]
-                stop_index = start_index + length
-                action_sentence = message[start_index:stop_index].strip().replace('\n', ' ')
-                if action_sentence in sentences:
-                    action_sentences.append(action_sentence)
-                    sentences.remove(action_sentence)
-        no_action_sentences.extend(sentences)
+                num_action_indices += 1
+                action_start = action_indices[i]
+                action_length = action_indices[i+1]
+                action_sentence = message[action_start:action_start+action_length].replace('\n', ' ')
+                action_found = False
+                for start, length, sentence in sentences:
+                    if overlap(start, length, action_start, action_length, 0.30):
+                        action_found = True
+                        action_sentences.add((start, length, sentence))
+                        
+        # Add all elements that are in sentences but not in action_sentences to the
+        # no_action_sentences set
+        no_action_sentences.update(sentences.difference(action_sentences))
 
     target = [1 for _ in action_sentences]
+    print '# action annotations:', num_action_indices
+    print '# action sentences detected:', len(action_sentences)
     target.extend([0 for _ in no_action_sentences])
-    sentences = action_sentences
-    sentences.extend(no_action_sentences)
+    sentences = [s[2] for s in action_sentences]
+    sentences.extend([s[2] for s in no_action_sentences])
+    print '# total sentences detected:', len(sentences)
 
     combined = zip(target, sentences)
     random.shuffle(combined)
@@ -75,14 +102,23 @@ def parse_sentences(message):
         if elem == '.' or elem == '?' or elem == '!' \
         else acc + [elem], re.split(r'([\.\!\?]|\n\n)', message), [])
 
+    sentences = [s for s in sentences if len(s) > 0 and not s.isspace() and not s.strip().startswith('From:') \
+        and not s.strip().startswith('To:') and not s.strip().startswith('Subject:') \
+        and not s.strip().startswith('Date:') and not s.strip().startswith('A:')]
+
+    starts = [message.index(s) for s in sentences]
+    lengths = [len(s) for s in sentences]
+
     # Strip sentences of extra white space.
     # Replace internal newlines with spaces so that newlines don't trip up sklearn tokenizers.
     # Remove all sentences that have length 0 or are completely comprised of whitespace.
     # Remove any sentence starting with the 'From:' header, which should remove the From:, To:, 
     # and Subject:
-    sentences = [s.strip().replace('\n', ' ') for s in sentences if len(s) > 0 and not s.isspace() and not s.startswith('From:')]
+    sentences = [s.strip().replace('\n', ' ') for s in sentences]
 
-    return sentences
+    # Return sentences along with their original start location in the message and their original
+    # length. This is done so that we can easily compute overlap with action item spans.
+    return set(zip(starts, lengths, sentences))
 
 # Transformer to transform a sparse matrix into a dense matrix for use in an sklearn pipeline.
 class DenseTransformer(TransformerMixin):

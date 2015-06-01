@@ -2,6 +2,7 @@
 
 import numpy as np
 import os
+import random
 import re
 from sklearn import datasets, cross_validation
 from sklearn.base import TransformerMixin
@@ -59,8 +60,13 @@ def load_sentences():
 
     target = [1 for _ in action_sentences]
     target.extend([0 for _ in no_action_sentences])
-    action_sentences.extend(no_action_sentences)
-    return action_sentences, target
+    sentences = action_sentences
+    sentences.extend(no_action_sentences)
+
+    combined = zip(target, sentences)
+    random.shuffle(combined)
+    target[:], sentences[:] = zip(*combined)
+    return sentences, target
 
 def parse_sentences(message):
     # Split the sentence on periods, exclamation marks, and double newlines. Recombine punctuation

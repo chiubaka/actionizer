@@ -15,6 +15,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.pipeline import FeatureUnion
 from sklearn.decomposition import KernelPCA, PCA
+from sklearn.svm import SVC
 import sklearn
 import code
 
@@ -123,7 +124,7 @@ def parse_sentences(message):
     sentences = [s.strip().replace('\n', ' ') for s in sentences]
 
     # Add sentence start and end tokens.
-    #sentences = ["<SE> " + s + " </SE>" for s in sentences]
+    sentences = ["<SE> " + s + " </SE>" for s in sentences]
 
     # Return sentences along with their original start location in the message and their original
     # length. This is done so that we can easily compute overlap with action item spans.
@@ -205,7 +206,7 @@ def main():
     print "Scoring..."
     multi_scoring_func = make_scorer(multi_scorer)
 
-    scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring=multi_scoring_func, cv=num_folds)
+    scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring=multi_scoring_func, cv=num_folds, n_jobs=-1)
     #print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
     
     scorearray = []

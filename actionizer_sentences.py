@@ -7,8 +7,8 @@ import random
 import re
 from scipy.sparse import *
 from sklearn import datasets, cross_validation
-from sklearn.base import TransformerMixin
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.feature_extraction.text import CountVectorizer, VectorizerMixin
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics import classification_report, make_scorer
 from sklearn.naive_bayes import GaussianNB
@@ -132,13 +132,26 @@ def parse_sentences(message):
     # length. This is done so that we can easily compute overlap with action item spans.
     return set(zip(starts, lengths, octiles, sentences))
 
-class ActionizerVectorizer(CountVectorizer):
+class OctileVectorizer(BaseEstimator, VectorizerMixin):
+    def fit(self, raw_documents, y=None):
+        self.fit_transform(raw_documents, y)
+
     def fit_transform(self, raw_documents, y=None):
         octiles = [document[0] for document in raw_documents]
+        return np.array(octiles)[np.newaxis].T
+
+    def transform(self, raw_documents):
+        octiles = [document[0] for document in raw_documents]
+        return np.array(octiles)[np.newaxis].T
+
+class ActionizerCountVectorizer(CountVectorizer):
+    def fit_transform(self, raw_documents, y=None):
         sentences = [document[1] for document in raw_documents]
-        X = super(ActionizerVectorizer, self).fit_transform(sentences, y)
-        X = csr_matrix(np.c_[X.todense(), octiles])
-        return X
+        return super(ActionizerCountVectorizer, self).fit_transform(sentences, y)
+
+    def transform(self, raw_documents):
+        sentences = [document[1] for document in raw_documents]
+        return super(ActionizerCountVectorizer, self).transform(sentences)
 
 # Transformer to transform a sparse matrix into a dense matrix for use in an sklearn pipeline.
 class DenseTransformer(TransformerMixin):
@@ -152,20 +165,18 @@ class DenseTransformer(TransformerMixin):
     def fit(self, X, y=None, **fit_params):
         return self
 
-
 def nb():
     print "Pipeline: Naive Bayes"
     return Pipeline([
-      ('vect', ActionizerVectorizer(ngram_range=(1, 4))), 
-      ('tfidf', TfidfTransformer()), 
-      ('to_dense', DenseTransformer()), 
-      ('PCAs', FeatureUnion([
-        ('linear_pca', PCA()),
-        ('kernal_pca', KernelPCA())
-      ])),
-      #('sentence_tokens', )
-      #('octile', OctileTransformer()),
-      ('clf', GaussianNB())
+        ('featurizer', FeatureUnion(transformer_list=[
+            ('vect-tfidf', Pipeline([
+                ('vect', ActionizerCountVectorizer(ngram_range=(1, 4))), 
+                ('tfidf', TfidfTransformer())
+            ])),
+            ('vect', OctileVectorizer())
+        ])),
+        ('to_dense', DenseTransformer()), 
+        ('clf', GaussianNB())
     ])
 
 def knn(num_sentences, num_folds):
@@ -175,19 +186,29 @@ def knn(num_sentences, num_folds):
     k = 5
     print "k=%d" % k
     return Pipeline([
-      ('vect', CountVectorizer(ngram_range=(1, 4))), 
-      ('tfidf', TfidfTransformer()), 
-      ('to_dense', DenseTransformer()), 
-      #('clf', KNeighborsClassifier(n_neighbors=k))
+        ('featurizer', FeatureUnion(transformer_list=[
+            ('vect-tfidf', Pipeline([
+                ('vect', ActionizerCountVectorizer(ngram_range=(1, 4))), 
+                ('tfidf', TfidfTransformer())
+            ])),
+            ('vect', OctileVectorizer())
+        ])),
+        ('to_dense', DenseTransformer()), 
+        ('clf', KNeighborsClassifier(n_neighbors=k))
     ])
 
 def svm():
     print "Pipeline: SVM"
     return Pipeline([
-      ('vect', CountVectorizer(ngram_range=(1, 4))), 
-      ('tfidf', TfidfTransformer(smooth_idf=True, sublinear_tf=False, norm='l1')), 
-      ('to_dense', DenseTransformer()), 
-      ('clf', SVC(C=1000, degree=2, kernel='linear'))
+        ('featurizer', FeatureUnion(transformer_list=[
+            ('vect-tfidf', Pipeline([
+                ('vect', ActionizerCountVectorizer(ngram_range=(1, 4))), 
+                ('tfidf', TfidfTransformer(smooth_idf=True, sublinear_tf=False, norm='l1')), 
+            ])),
+            ('vect', OctileVectorizer())
+        ])),
+        ('to_dense', DenseTransformer()), 
+        ('clf', SVC(C=1000, degree=2, kernel='linear'))
     ])
 
 def multi_scorer(y_true, y_pred):
@@ -202,12 +223,15 @@ def multi_scorer(y_true, y_pred):
 def main():
     sentences, target = load_sentences()
 
+    #sentences = sentences[1:50]
+    #target = target[1:50]
+
     num_folds = 5
 
     #pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 4))), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', KNeighborsClassifier())])
     #pipeline = knn(len(sentences), num_folds)
-    pipeline = nb()
-    #pipeline = svm()
+    #pipeline = nb()
+    pipeline = svm()
 
     #featurevector = pipeline.fit_transform(sentences, target)
    
@@ -217,7 +241,7 @@ def main():
     multi_scoring_func = make_scorer(multi_scorer)
 
     scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring=multi_scoring_func, cv=num_folds, n_jobs=-1)
-    #print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    #print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
     
     scorearray = []
     for i in xrange(len(scores)):

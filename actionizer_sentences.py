@@ -1,5 +1,6 @@
 #! /usr/bin/python
 
+import math
 import numpy as np
 import os
 import random
@@ -8,9 +9,14 @@ from sklearn import datasets, cross_validation
 from sklearn.base import TransformerMixin
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, make_scorer
 from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
+from sklearn.pipeline import FeatureUnion
+from sklearn.decomposition import KernelPCA, PCA
+import sklearn
+import code
 
 MESSAGES_DIR = "data/messages/"
 MESSAGE_FILENAME_FORMAT = "msg-%d.txt"
@@ -116,6 +122,9 @@ def parse_sentences(message):
     # and Subject:
     sentences = [s.strip().replace('\n', ' ') for s in sentences]
 
+    # Add sentence start and end tokens.
+    #sentences = ["<SE> " + s + " </SE>" for s in sentences]
+
     # Return sentences along with their original start location in the message and their original
     # length. This is done so that we can easily compute overlap with action item spans.
     return set(zip(starts, lengths, sentences))
@@ -132,17 +141,85 @@ class DenseTransformer(TransformerMixin):
     def fit(self, X, y=None, **fit_params):
         return self
 
+
+def nb():
+    print "Pipeline: Naive Bayes"
+    return Pipeline([
+      ('vect', CountVectorizer(ngram_range=(1, 4))), 
+      ('tfidf', TfidfTransformer()), 
+      ('to_dense', DenseTransformer()), 
+      ('PCAs', FeatureUnion([
+        ('linear_pca', PCA()),
+        ('kernal_pca', KernelPCA())
+      ])),
+      #('sentence_tokens', )
+      #('octile', OctileTransformer()),
+      ('clf', GaussianNB())
+    ])
+
+def knn(num_sentences, num_folds):
+    print "Pipeline: KNeighborsClassifier"
+    training_examples = num_sentences * (num_folds - 1) / float(num_folds)
+    #k = 2 * (math.ceil(math.log(training_examples, 2)) + 1)
+    k = 5
+    print "k=%d" % k
+    return Pipeline([
+      ('vect', CountVectorizer(ngram_range=(1, 4))), 
+      ('tfidf', TfidfTransformer()), 
+      ('to_dense', DenseTransformer()), 
+      #('clf', KNeighborsClassifier(n_neighbors=k))
+    ])
+
+def svm():
+    print "Pipeline: SVM"
+    return Pipeline([
+      ('vect', CountVectorizer(ngram_range=(1, 4))), 
+      ('tfidf', TfidfTransformer(smooth_idf=True, sublinear_tf=False, norm='l1')), 
+      ('to_dense', DenseTransformer()), 
+      ('clf', SVC(C=1000, degree=2, kernel='linear'))
+    ])
+
+def multi_scorer(y_true, y_pred):
+    f1_score = sklearn.metrics.f1_score(y_true, y_pred)
+    accuracy = sklearn.metrics.accuracy_score(y_true, y_pred)
+    precision = sklearn.metrics.precision_score(y_true, y_pred)
+    recall = sklearn.metrics.recall_score(y_true, y_pred)
+    mse = sklearn.metrics.mean_squared_error(y_true, y_pred)
+
+    return (f1_score, accuracy, precision, recall, mse)
+
 def main():
     sentences, target = load_sentences()
 
-    pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 4))), ('to_dense', DenseTransformer()), ('clf', GaussianNB())])
-    pipeline.fit(sentences, target)
+    num_folds = 5
 
-    scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring='f1', cv=5)
-    print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    #pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 4))), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', KNeighborsClassifier())])
+    #pipeline = knn(len(sentences), num_folds)
+    #pipeline = nb()
+    pipeline = svm()
 
-    scores = cross_validation.cross_val_score(pipeline, sentences, target, cv=5)
-    print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    #featurevector = pipeline.fit_transform(sentences, target)
+   
+    #code.interact(local=locals())
+
+    print "Scoring..."
+    multi_scoring_func = make_scorer(multi_scorer)
+
+    scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring=multi_scoring_func, cv=num_folds)
+    #print "F1: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
+    
+    scorearray = []
+    for i in xrange(len(scores)):
+      print "[%d] " % i,
+      print "F1: %f, Acc: %f, Prc: %f, Rec: %f, MSE: %f" % scores[i]
+      scorearray.append(list(scores[i]))
+
+    scorearray = np.asarray(scorearray)
+    print "-" * 80
+    print "AVG  F1: %f, Acc: %f, Prc: %f, Rec: %f, MSE: %f" %  tuple(scorearray.mean(axis=0))
+
+    #scores = cross_validation.cross_val_score(pipeline, sentences, target, scoring=multi_scoring_func, n_jobs=-1, cv=num_folds)
+    #print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
 if __name__ == "__main__":
     main()

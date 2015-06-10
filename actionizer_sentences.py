@@ -5,6 +5,7 @@ import numpy as np
 import os
 import random
 import re
+from scipy.sparse import *
 from sklearn import datasets, cross_validation
 from sklearn.base import TransformerMixin
 from sklearn.feature_extraction.text import CountVectorizer
@@ -80,10 +81,10 @@ def load_sentences():
                 action_length = action_indices[i+1]
                 action_sentence = message[action_start:action_start+action_length].replace('\n', ' ')
                 action_found = False
-                for start, length, sentence in sentences:
+                for start, length, octile, sentence in sentences:
                     if overlap(start, length, action_start, action_length, 0.30):
                         action_found = True
-                        action_sentences.add((start, length, sentence))
+                        action_sentences.add((start, length, octile, sentence))
                         
         # Add all elements that are in sentences but not in action_sentences to the
         # no_action_sentences set
@@ -93,8 +94,8 @@ def load_sentences():
     print '# action annotations:', num_action_indices
     print '# action sentences detected:', len(action_sentences)
     target.extend([0 for _ in no_action_sentences])
-    sentences = [s[2] for s in action_sentences]
-    sentences.extend([s[2] for s in no_action_sentences])
+    sentences = [s[2:] for s in action_sentences]
+    sentences.extend([s[2:] for s in no_action_sentences])
     print '# total sentences detected:', len(sentences)
 
     combined = zip(target, sentences)
@@ -114,6 +115,7 @@ def parse_sentences(message):
         and not s.strip().startswith('Date:') and not s.strip().startswith('A:')]
 
     starts = [message.index(s) for s in sentences]
+    octiles = [int(math.floor(float(start) / (len(message) / 8.0))) for start in starts]
     lengths = [len(s) for s in sentences]
 
     # Strip sentences of extra white space.
@@ -128,7 +130,15 @@ def parse_sentences(message):
 
     # Return sentences along with their original start location in the message and their original
     # length. This is done so that we can easily compute overlap with action item spans.
-    return set(zip(starts, lengths, sentences))
+    return set(zip(starts, lengths, octiles, sentences))
+
+class ActionizerVectorizer(CountVectorizer):
+    def fit_transform(self, raw_documents, y=None):
+        octiles = [document[0] for document in raw_documents]
+        sentences = [document[1] for document in raw_documents]
+        X = super(ActionizerVectorizer, self).fit_transform(sentences, y)
+        X = csr_matrix(np.c_[X.todense(), octiles])
+        return X
 
 # Transformer to transform a sparse matrix into a dense matrix for use in an sklearn pipeline.
 class DenseTransformer(TransformerMixin):
@@ -146,7 +156,7 @@ class DenseTransformer(TransformerMixin):
 def nb():
     print "Pipeline: Naive Bayes"
     return Pipeline([
-      ('vect', CountVectorizer(ngram_range=(1, 4))), 
+      ('vect', ActionizerVectorizer(ngram_range=(1, 4))), 
       ('tfidf', TfidfTransformer()), 
       ('to_dense', DenseTransformer()), 
       ('PCAs', FeatureUnion([
@@ -196,8 +206,8 @@ def main():
 
     #pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1, 4))), ('tfidf', TfidfTransformer()), ('to_dense', DenseTransformer()), ('clf', KNeighborsClassifier())])
     #pipeline = knn(len(sentences), num_folds)
-    #pipeline = nb()
-    pipeline = svm()
+    pipeline = nb()
+    #pipeline = svm()
 
     #featurevector = pipeline.fit_transform(sentences, target)
    
